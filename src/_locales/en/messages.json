@@ -1,0 +1,417 @@
+{
+    "locale": {
+        "message": "en",
+        "description": "Do not translate. The language code of this file, used to format numbers and times."
+    },
+    "dir": {
+        "message": "ltr",
+        "description": "Do not translate. ltr, or rtl for right-to-left languages."
+    },
+    "ext_name": {
+        "message": "Coddy Focus: Website Blocker and Focus Timer",
+        "description": "Store and extension name, at most 75 characters. Keep 'Coddy Focus' as is."
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus",
+        "description": "Product name. Do not translate."
+    },
+    "ext_description": {
+        "message": "Block distracting sites, set daily limits and focus. Free, open source, your data stays in your browser. Learn to code on Coddy.",
+        "description": "Store description, at most 132 characters."
+    },
+    "settings": {
+        "message": "Settings"
+    },
+    "cancel": {
+        "message": "Cancel"
+    },
+    "learn_on_coddy": {
+        "message": "Learn on Coddy",
+        "description": "Link to coddy.tech, a site to learn coding."
+    },
+    "incognito_off": {
+        "message": "Blocking is off in incognito windows. To turn it on, open the extension's page and switch on incognito access."
+    },
+    "incognito_fix": {
+        "message": "Open the extension's page"
+    },
+    "popup_lockdown_title": {
+        "message": "Lockdown is on"
+    },
+    "popup_lockdown_until": {
+        "message": "Your sites are blocked until {time}.",
+        "description": "{time} is a time like 17:30 or Mon 09:00."
+    },
+    "popup_focus_title": {
+        "message": "Focus session"
+    },
+    "popup_focus_body": {
+        "message": "Your sites are blocked until the timer ends."
+    },
+    "popup_focus_stop": {
+        "message": "Stop the session"
+    },
+    "popup_break_title": {
+        "message": "Break"
+    },
+    "popup_break_body": {
+        "message": "Take a short break. Your usual limits apply."
+    },
+    "popup_break_end": {
+        "message": "End the break"
+    },
+    "popup_focus_start": {
+        "message": "Focus for {duration}",
+        "description": "Button that starts a focus session. {duration} is a length like 25 minutes."
+    },
+    "popup_empty_title": {
+        "message": "Add the sites that distract you"
+    },
+    "popup_empty_body": {
+        "message": "Then choose how much time you get on them each day."
+    },
+    "popup_empty_action": {
+        "message": "Add sites"
+    },
+    "popup_off_title": {
+        "message": "Your limits are off right now"
+    },
+    "popup_off_body": {
+        "message": "They start again {time}.",
+        "description": "{time} is a time like 17:30 or Mon 09:00."
+    },
+    "popup_blocked_title": {
+        "message": "Your sites are blocked"
+    },
+    "popup_blocked_body": {
+        "message": "Every site on your list is always blocked."
+    },
+    "popup_used_up_title": {
+        "message": "Today's time is used up"
+    },
+    "popup_used_up_body": {
+        "message": "Your sites open again {time}.",
+        "description": "{time} is a time like 00:00 or 17:30."
+    },
+    "popup_used_up_midnight": {
+        "message": "Your sites open again at midnight."
+    },
+    "popup_left_title": {
+        "message": "Time left today"
+    },
+    "popup_used_of": {
+        "message": "{used} of {total} used",
+        "description": "{used} and {total} are lengths like '12 minutes'."
+    },
+    "popup_site_not_listed": {
+        "message": "{site} is not on your list.",
+        "description": "{site} is a site address like youtube.com."
+    },
+    "popup_site_listed_limited": {
+        "message": "{site} counts against your daily time.",
+        "description": "{site} is a site address like youtube.com."
+    },
+    "popup_site_listed_blocked": {
+        "message": "{site} is blocked during your limits.",
+        "description": "{site} is a site address like youtube.com."
+    },
+    "popup_site_add": {
+        "message": "Add this site"
+    },
+    "popup_site_manage": {
+        "message": "Change it in settings"
+    },
+    "options_title": {
+        "message": "Coddy Focus settings",
+        "description": "Browser tab title. Keep 'Coddy Focus' as is."
+    },
+    "options_tagline": {
+        "message": "Less scrolling, more learning."
+    },
+    "sites_title": {
+        "message": "Your sites"
+    },
+    "sites_add_label": {
+        "message": "Site to add"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com or reddit.com/r/all",
+        "description": "Example addresses. Keep the addresses as they are."
+    },
+    "sites_mode_label": {
+        "message": "How to limit this site"
+    },
+    "mode_limited": {
+        "message": "Daily time limit"
+    },
+    "mode_blocked": {
+        "message": "Always blocked"
+    },
+    "sites_add": {
+        "message": "Add"
+    },
+    "sites_empty": {
+        "message": "No sites yet. Add the ones you lose time on."
+    },
+    "sites_invalid": {
+        "message": "That doesn't look like a site address."
+    },
+    "sites_duplicate": {
+        "message": "That site is already on your list."
+    },
+    "sites_remove_label": {
+        "message": "Remove {site}",
+        "description": "Screen reader label. {site} is a site address."
+    },
+    "access_basic": {
+        "message": "Coddy Focus has no access to this site, so it can't count your time there. When the site is blocked, you see the browser's plain blocked page instead of Coddy's."
+    },
+    "access_give": {
+        "message": "Give access"
+    },
+    "access_give_all": {
+        "message": "Give access to all"
+    },
+    "access_missing": {
+        "message": "Some sites have no access. Time on them isn't counted, and when they're blocked they show the browser's plain blocked page."
+    },
+    "allowance_title": {
+        "message": "Daily time"
+    },
+    "allowance_body": {
+        "message": "All your daily time limit sites share this time. Set 0 to block them all day."
+    },
+    "minutes_per_day": {
+        "message": "minutes a day",
+        "description": "Follows a number field, as in '30 minutes a day'."
+    },
+    "schedule_title": {
+        "message": "When limits apply"
+    },
+    "schedule_enable": {
+        "message": "Only at certain times"
+    },
+    "schedule_days": {
+        "message": "Days"
+    },
+    "schedule_from": {
+        "message": "From"
+    },
+    "schedule_to": {
+        "message": "To"
+    },
+    "focus_title": {
+        "message": "Focus timer"
+    },
+    "focus_body": {
+        "message": "Every site on your list is blocked while you work, then you get a break."
+    },
+    "focus_work": {
+        "message": "Work minutes"
+    },
+    "focus_break": {
+        "message": "Break minutes"
+    },
+    "lockdown_title": {
+        "message": "Lockdown"
+    },
+    "lockdown_body": {
+        "message": "Blocks every site on your list for as long as you choose. You can't stop it once it starts."
+    },
+    "lockdown_length": {
+        "message": "Lockdown length"
+    },
+    "lockdown_start": {
+        "message": "Start lockdown"
+    },
+    "lockdown_extend": {
+        "message": "Make it longer"
+    },
+    "lockdown_confirm": {
+        "message": "Yes, lock for {duration}",
+        "description": "Confirm button. {duration} is a length like '4 hours'."
+    },
+    "lockdown_active": {
+        "message": "Lockdown is on until {time}.",
+        "description": "{time} is a time like 17:30 or Mon 09:00."
+    },
+    "hide_title": {
+        "message": "Hide distractions"
+    },
+    "hide_body": {
+        "message": "Keep a site open but hide the parts that pull you in."
+    },
+    "hide_yt_shorts": {
+        "message": "Hide YouTube Shorts"
+    },
+    "hide_yt_comments": {
+        "message": "Hide YouTube comments"
+    },
+    "hide_yt_recommendations": {
+        "message": "Hide YouTube recommendations"
+    },
+    "hide_ig_reels": {
+        "message": "Hide Instagram Reels"
+    },
+    "strict_title": {
+        "message": "Strict mode"
+    },
+    "strict_enable": {
+        "message": "Make looser limits wait until tomorrow"
+    },
+    "strict_body": {
+        "message": "Stricter limits apply right away. Removing a site, raising your time or turning strict mode off takes effect at midnight."
+    },
+    "pending_strict": {
+        "message": "Strict mode is on, so changes that loosen your limits take effect at midnight."
+    },
+    "pending_lockdown": {
+        "message": "A lockdown is on, so changes that loosen your limits take effect {time}.",
+        "description": "{time} is a time like 17:30 or Mon 09:00."
+    },
+    "pending_cancel": {
+        "message": "Keep my current limits"
+    },
+    "backup_title": {
+        "message": "Backup"
+    },
+    "backup_body": {
+        "message": "Save your settings to a file, or load them from one."
+    },
+    "backup_export": {
+        "message": "Save to a file"
+    },
+    "backup_import": {
+        "message": "Load from a file"
+    },
+    "backup_imported": {
+        "message": "Settings loaded."
+    },
+    "backup_invalid": {
+        "message": "That file is not a Coddy Focus backup.",
+        "description": "Keep 'Coddy Focus' as is."
+    },
+    "about_title": {
+        "message": "Free and open source"
+    },
+    "about_body": {
+        "message": "Coddy Focus makes no network requests and keeps everything in your browser. Anyone can read the code."
+    },
+    "about_source": {
+        "message": "See the code on GitHub"
+    },
+    "blocked_tab_title": {
+        "message": "Blocked"
+    },
+    "blocked_title": {
+        "message": "{site} is blocked",
+        "description": "{site} is a site address like youtube.com."
+    },
+    "blocked_reason_lockdown": {
+        "message": "Lockdown is on until {time}.",
+        "description": "{time} is a time like 17:30 or Mon 09:00."
+    },
+    "blocked_reason_focus": {
+        "message": "You're in a focus session. {time} left.",
+        "description": "{time} is a countdown like 18:42."
+    },
+    "blocked_reason_blocked": {
+        "message": "Blocked during your limits, until {time}.",
+        "description": "{time} is a time like 17:30 or Mon 09:00."
+    },
+    "blocked_reason_limit": {
+        "message": "You used today's time. It opens again {time}.",
+        "description": "{time} is a time like 00:00 or 17:30."
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "You used today's time. It opens again at midnight."
+    },
+    "blocked_reason_always": {
+        "message": "This site is always blocked."
+    },
+    "blocked_learn": {
+        "message": "Do a lesson instead"
+    },
+    "blocked_back": {
+        "message": "Go back"
+    },
+    "blocked_pitch": {
+        "message": "One short coding lesson on Coddy beats ten minutes of scrolling."
+    },
+    "blocked_open_title": {
+        "message": "{site} is open again",
+        "description": "{site} is a site address like youtube.com."
+    },
+    "blocked_open_body": {
+        "message": "The block has ended."
+    },
+    "blocked_open_site": {
+        "message": "Open the site"
+    },
+    "tab_today": {
+        "message": "Today"
+    },
+    "today_no_time": {
+        "message": "No time counted yet. Only sites on your list are counted, and only on this device."
+    },
+    "nav_label": {
+        "message": "Settings sections",
+        "description": "Screen reader name of the settings tab list."
+    },
+    "tab_sites": {
+        "message": "Sites"
+    },
+    "tab_limits": {
+        "message": "Limits"
+    },
+    "tab_focus": {
+        "message": "Focus"
+    },
+    "tab_hide": {
+        "message": "Hide"
+    },
+    "tab_more": {
+        "message": "More"
+    },
+    "today_blocked_now": {
+        "message": "Sites blocked now"
+    },
+    "today_week": {
+        "message": "Your time this week"
+    },
+    "today_your_time": {
+        "message": "Your time today"
+    },
+    "today_add_other": {
+        "message": "Add another site"
+    },
+    "sites_suggestions": {
+        "message": "Quick add"
+    },
+    "toast_saved": {
+        "message": "Saved"
+    },
+    "toast_saved_later": {
+        "message": "Saved. Changes that loosen your limits take effect later."
+    },
+    "focus_then_break": {
+        "message": "Then a break of {duration}.",
+        "description": "Under the focus timer. {duration} is a length like 5 minutes."
+    },
+    "sites_access_denied": {
+        "message": "{site} wasn't added. Coddy Focus needs access to it to count your time and show its blocked page.",
+        "description": "Shown when the user denies Chrome's access prompt. {site} is a site address."
+    },
+    "focus_hint": {
+        "message": "Blocks every site on your list until the timer ends, then gives you a short break. You can stop it anytime."
+    },
+    "lockdown_hint": {
+        "message": "Blocks every site on your list for as long as you choose. It can't be stopped early."
+    },
+    "mode_limited_hint": {
+        "message": "These sites share your daily time. When it runs out, they're blocked until midnight."
+    },
+    "mode_blocked_hint": {
+        "message": "Blocked all day, or only during the hours you set under Limits."
+    }
+}

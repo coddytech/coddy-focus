@@ -1,0 +1,386 @@
+{
+    "locale": {
+        "message": "pt-BR"
+    },
+    "dir": {
+        "message": "ltr"
+    },
+    "ext_name": {
+        "message": "Coddy Focus: bloqueador de sites e timer de foco"
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus"
+    },
+    "ext_description": {
+        "message": "Bloqueie sites que distraem, defina limites e foque. Grátis, código aberto, seus dados ficam no navegador. Programe no Coddy."
+    },
+    "settings": {
+        "message": "Configurações"
+    },
+    "cancel": {
+        "message": "Cancelar"
+    },
+    "learn_on_coddy": {
+        "message": "Aprenda no Coddy"
+    },
+    "incognito_off": {
+        "message": "O bloqueio está desativado nas janelas anônimas. Para ativar, abra a página da extensão e permita o acesso no modo anônimo."
+    },
+    "incognito_fix": {
+        "message": "Abrir a página da extensão"
+    },
+    "popup_lockdown_title": {
+        "message": "O bloqueio total está ativado"
+    },
+    "popup_lockdown_until": {
+        "message": "Seus sites estão bloqueados até {time}."
+    },
+    "popup_focus_title": {
+        "message": "Sessão de foco"
+    },
+    "popup_focus_body": {
+        "message": "Seus sites estão bloqueados até o timer acabar."
+    },
+    "popup_focus_stop": {
+        "message": "Parar a sessão"
+    },
+    "popup_break_title": {
+        "message": "Pausa"
+    },
+    "popup_break_body": {
+        "message": "Faça uma pausa curta. Seus limites de sempre continuam valendo."
+    },
+    "popup_break_end": {
+        "message": "Encerrar a pausa"
+    },
+    "popup_focus_start": {
+        "message": "Começar {duration} de foco"
+    },
+    "popup_empty_title": {
+        "message": "Adicione os sites que distraem você"
+    },
+    "popup_empty_body": {
+        "message": "Depois escolha quanto tempo você pode passar neles por dia."
+    },
+    "popup_empty_action": {
+        "message": "Adicionar sites"
+    },
+    "popup_off_title": {
+        "message": "Seus limites estão desativados agora"
+    },
+    "popup_off_body": {
+        "message": "Eles voltam a valer a partir de {time}."
+    },
+    "popup_blocked_title": {
+        "message": "Seus sites estão bloqueados"
+    },
+    "popup_blocked_body": {
+        "message": "Todos os sites da sua lista estão sempre bloqueados."
+    },
+    "popup_used_up_title": {
+        "message": "O tempo de hoje acabou"
+    },
+    "popup_used_up_body": {
+        "message": "Seus sites abrem de novo a partir de {time}."
+    },
+    "popup_left_title": {
+        "message": "Tempo restante hoje"
+    },
+    "popup_used_of": {
+        "message": "Usado: {used} de {total}"
+    },
+    "popup_site_not_listed": {
+        "message": "{site} não está na sua lista."
+    },
+    "popup_site_listed_limited": {
+        "message": "{site} conta no seu tempo diário."
+    },
+    "popup_site_listed_blocked": {
+        "message": "{site} fica bloqueado durante seus limites."
+    },
+    "popup_site_add": {
+        "message": "Adicionar este site"
+    },
+    "popup_site_manage": {
+        "message": "Alterar nas configurações"
+    },
+    "options_title": {
+        "message": "Configurações do Coddy Focus"
+    },
+    "options_tagline": {
+        "message": "Menos rolagem, mais aprendizado."
+    },
+    "sites_title": {
+        "message": "Seus sites"
+    },
+    "sites_add_label": {
+        "message": "Site para adicionar"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com ou reddit.com/r/all"
+    },
+    "sites_mode_label": {
+        "message": "Como limitar este site"
+    },
+    "mode_limited": {
+        "message": "Limite de tempo diário"
+    },
+    "mode_blocked": {
+        "message": "Sempre bloqueado"
+    },
+    "sites_add": {
+        "message": "Adicionar"
+    },
+    "sites_empty": {
+        "message": "Nenhum site ainda. Adicione aqueles em que você perde tempo."
+    },
+    "sites_invalid": {
+        "message": "Isso não parece um endereço de site."
+    },
+    "sites_duplicate": {
+        "message": "Esse site já está na sua lista."
+    },
+    "sites_remove_label": {
+        "message": "Remover {site}"
+    },
+    "access_basic": {
+        "message": "O Coddy Focus não tem acesso a este site, então não consegue contar seu tempo nele. Quando ele está bloqueado, você vê a página de bloqueio simples do navegador em vez da do Coddy."
+    },
+    "access_give": {
+        "message": "Dar acesso"
+    },
+    "access_give_all": {
+        "message": "Dar acesso a todos"
+    },
+    "access_missing": {
+        "message": "Alguns sites estão sem acesso. O tempo neles não é contado e, quando bloqueados, eles mostram a página de bloqueio simples do navegador."
+    },
+    "allowance_title": {
+        "message": "Tempo diário"
+    },
+    "allowance_body": {
+        "message": "Todos os sites com limite de tempo diário dividem este tempo. Coloque 0 para bloqueá-los o dia todo."
+    },
+    "minutes_per_day": {
+        "message": "minutos por dia"
+    },
+    "schedule_title": {
+        "message": "Quando os limites valem"
+    },
+    "schedule_enable": {
+        "message": "Só em certos horários"
+    },
+    "schedule_days": {
+        "message": "Dias"
+    },
+    "schedule_from": {
+        "message": "De"
+    },
+    "schedule_to": {
+        "message": "Até"
+    },
+    "focus_title": {
+        "message": "Timer de foco"
+    },
+    "focus_body": {
+        "message": "Todos os sites da sua lista ficam bloqueados enquanto você trabalha, e depois você ganha uma pausa."
+    },
+    "focus_work": {
+        "message": "Minutos de trabalho"
+    },
+    "focus_break": {
+        "message": "Minutos de pausa"
+    },
+    "lockdown_title": {
+        "message": "Bloqueio total"
+    },
+    "lockdown_body": {
+        "message": "Bloqueia todos os sites da sua lista pelo tempo que você escolher. Depois de começar, não dá para parar."
+    },
+    "lockdown_length": {
+        "message": "Duração do bloqueio"
+    },
+    "lockdown_start": {
+        "message": "Iniciar o bloqueio total"
+    },
+    "lockdown_extend": {
+        "message": "Prolongar"
+    },
+    "lockdown_confirm": {
+        "message": "Sim, bloquear por {duration}"
+    },
+    "lockdown_active": {
+        "message": "O bloqueio total está ativado até {time}."
+    },
+    "hide_title": {
+        "message": "Ocultar distrações"
+    },
+    "hide_body": {
+        "message": "Mantenha um site aberto, mas oculte as partes que prendem você."
+    },
+    "hide_yt_shorts": {
+        "message": "Ocultar Shorts do YouTube"
+    },
+    "hide_yt_comments": {
+        "message": "Ocultar comentários do YouTube"
+    },
+    "hide_yt_recommendations": {
+        "message": "Ocultar recomendações do YouTube"
+    },
+    "hide_ig_reels": {
+        "message": "Ocultar Reels do Instagram"
+    },
+    "strict_title": {
+        "message": "Modo estrito"
+    },
+    "strict_enable": {
+        "message": "Deixar limites mais flexíveis só para amanhã"
+    },
+    "strict_body": {
+        "message": "Limites mais rígidos valem na hora. Remover um site, aumentar seu tempo ou desativar o modo estrito só vale à meia-noite."
+    },
+    "pending_strict": {
+        "message": "O modo estrito está ativado, então mudanças que afrouxam seus limites só valem a partir da meia-noite."
+    },
+    "pending_lockdown": {
+        "message": "Há um bloqueio total ativo, então mudanças que afrouxam seus limites só valem a partir de {time}."
+    },
+    "pending_cancel": {
+        "message": "Manter meus limites atuais"
+    },
+    "backup_title": {
+        "message": "Backup"
+    },
+    "backup_body": {
+        "message": "Salve suas configurações em um arquivo ou carregue a partir de um."
+    },
+    "backup_export": {
+        "message": "Salvar em um arquivo"
+    },
+    "backup_import": {
+        "message": "Carregar de um arquivo"
+    },
+    "backup_imported": {
+        "message": "Configurações carregadas."
+    },
+    "backup_invalid": {
+        "message": "Esse arquivo não é um backup do Coddy Focus."
+    },
+    "about_title": {
+        "message": "Grátis e de código aberto"
+    },
+    "about_body": {
+        "message": "O Coddy Focus não faz nenhuma requisição de rede e guarda tudo no seu navegador. Qualquer pessoa pode ler o código."
+    },
+    "about_source": {
+        "message": "Ver o código no GitHub"
+    },
+    "blocked_tab_title": {
+        "message": "Bloqueado"
+    },
+    "blocked_title": {
+        "message": "{site} está bloqueado"
+    },
+    "blocked_reason_lockdown": {
+        "message": "O bloqueio total está ativado até {time}."
+    },
+    "blocked_reason_focus": {
+        "message": "Você está em uma sessão de foco. Faltam {time}."
+    },
+    "blocked_reason_blocked": {
+        "message": "Bloqueado durante seus limites, até {time}."
+    },
+    "blocked_reason_limit": {
+        "message": "Você usou o tempo de hoje. O site abre de novo a partir de {time}."
+    },
+    "blocked_reason_always": {
+        "message": "Este site está sempre bloqueado."
+    },
+    "blocked_learn": {
+        "message": "Faça uma lição em vez disso"
+    },
+    "blocked_back": {
+        "message": "Voltar"
+    },
+    "blocked_pitch": {
+        "message": "Uma lição curta de programação no Coddy vale mais que dez minutos de rolagem."
+    },
+    "blocked_open_title": {
+        "message": "{site} está aberto de novo"
+    },
+    "blocked_open_body": {
+        "message": "O bloqueio terminou."
+    },
+    "blocked_open_site": {
+        "message": "Abrir o site"
+    },
+    "popup_used_up_midnight": {
+        "message": "Seus sites abrem de novo à meia-noite."
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "Você usou o tempo de hoje. O site abre de novo à meia-noite."
+    },
+    "tab_today": {
+        "message": "Hoje"
+    },
+    "today_no_time": {
+        "message": "Nenhum tempo contado ainda. Só os sites da sua lista são contados, e só neste dispositivo."
+    },
+    "nav_label": {
+        "message": "Seções das configurações"
+    },
+    "tab_sites": {
+        "message": "Sites"
+    },
+    "tab_limits": {
+        "message": "Limites"
+    },
+    "tab_focus": {
+        "message": "Foco"
+    },
+    "tab_hide": {
+        "message": "Ocultar"
+    },
+    "tab_more": {
+        "message": "Mais"
+    },
+    "today_blocked_now": {
+        "message": "Sites bloqueados agora"
+    },
+    "today_week": {
+        "message": "Seu tempo nesta semana"
+    },
+    "today_your_time": {
+        "message": "Seu tempo hoje"
+    },
+    "today_add_other": {
+        "message": "Adicionar outro site"
+    },
+    "sites_suggestions": {
+        "message": "Adicionar rápido"
+    },
+    "toast_saved": {
+        "message": "Salvo"
+    },
+    "toast_saved_later": {
+        "message": "Salvo. Mudanças que afrouxam seus limites só valem mais tarde."
+    },
+    "focus_then_break": {
+        "message": "Depois, uma pausa de {duration}."
+    },
+    "sites_access_denied": {
+        "message": "{site} não foi adicionado. O Coddy Focus precisa de acesso para contar seu tempo e mostrar a página de bloqueio dele."
+    },
+    "focus_hint": {
+        "message": "Bloqueia todos os sites da sua lista até o timer acabar e depois dá uma pausa curta. Você pode parar quando quiser."
+    },
+    "lockdown_hint": {
+        "message": "Bloqueia todos os sites da sua lista pelo tempo que você escolher. Não dá para parar antes."
+    },
+    "mode_limited_hint": {
+        "message": "Esses sites dividem seu tempo diário. Quando ele acaba, ficam bloqueados até a meia-noite."
+    },
+    "mode_blocked_hint": {
+        "message": "Bloqueado o dia todo, ou só nos horários que você definir em Limites."
+    }
+}

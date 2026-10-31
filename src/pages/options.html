@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title data-i18n="options_title"></title>
+        <link rel="icon" href="../icons/icon-32.png" />
+        <link rel="stylesheet" href="common.css" />
+        <link rel="stylesheet" href="options.css" />
+        <script type="module" src="options.js"></script>
+    </head>
+    <body>
+        <div class="app">
+            <aside class="side">
+                <header class="brand">
+                    <img src="../icons/icon-128.png" alt="" width="40" height="40" />
+                    <div>
+                        <p class="brand-name" data-i18n="ext_short_name"></p>
+                        <p class="muted brand-tagline" data-i18n="options_tagline"></p>
+                    </div>
+                </header>
+                <nav class="nav" role="tablist" aria-orientation="vertical" data-i18n-label="nav_label">
+                    <button class="nav-item" role="tab" id="tab-today" aria-controls="today" data-tab="today" data-icon="today" type="button"><span data-i18n="tab_today"></span></button>
+                    <button class="nav-item" role="tab" id="tab-sites" aria-controls="sites" data-tab="sites" data-icon="sites" type="button"><span data-i18n="tab_sites"></span></button>
+                    <button class="nav-item" role="tab" id="tab-limits" aria-controls="limits" data-tab="limits" data-icon="limits" type="button"><span data-i18n="tab_limits"></span></button>
+                    <button class="nav-item" role="tab" id="tab-focus" aria-controls="focus" data-tab="focus" data-icon="focus" type="button"><span data-i18n="tab_focus"></span></button>
+                    <button class="nav-item" role="tab" id="tab-hide" aria-controls="hide" data-tab="hide" data-icon="hide" type="button"><span data-i18n="tab_hide"></span></button>
+                    <button class="nav-item" role="tab" id="tab-more" aria-controls="more" data-tab="more" data-icon="more" type="button"><span data-i18n="tab_more"></span></button>
+                </nav>
+            </aside>
+
+            <main class="main">
+                <div id="pending" class="notice" role="status" hidden></div>
+                <div id="incognito" class="notice" hidden>
+                    <p data-i18n="incognito_off"></p>
+                    <button id="incognito-fix" class="btn secondary md" type="button" data-i18n="incognito_fix"></button>
+                </div>
+
+                <!-- Today -->
+                <section id="today" class="panel" role="tabpanel" aria-labelledby="tab-today" tabindex="-1">
+                    <h1 data-i18n="tab_today"></h1>
+                    <div id="today-empty" class="card stack" hidden>
+                        <h2 data-i18n="popup_empty_title"></h2>
+                        <p class="muted" data-i18n="popup_empty_body"></p>
+                        <div class="chips" id="today-suggestions"></div>
+                        <div>
+                            <button class="btn link" type="button" data-goto="sites" data-i18n="today_add_other"></button>
+                        </div>
+                    </div>
+                    <div id="today-main" class="stack">
+                        <div class="card hero">
+                            <div id="today-status" class="status"></div>
+                            <div id="today-actions" class="hero-actions">
+                                <div class="action">
+                                    <button id="today-focus" class="btn3d" type="button" aria-describedby="today-focus-hint"></button>
+                                    <p id="today-focus-hint" class="hint" data-i18n="focus_hint"></p>
+                                </div>
+                                <div class="action">
+                                    <button class="btn secondary lg" type="button" data-goto="focus" data-scroll="lockdown-card" aria-describedby="today-lockdown-hint">
+                                        <span data-icon="lock"></span><span data-i18n="lockdown_title"></span>
+                                    </button>
+                                    <p id="today-lockdown-hint" class="hint" data-i18n="lockdown_hint"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tiles">
+                            <div class="card tile">
+                                <p class="muted" data-i18n="today_blocked_now"></p>
+                                <p id="today-blocked" class="tile-value"></p>
+                            </div>
+                            <div class="card tile">
+                                <p class="muted" data-i18n="today_week"></p>
+                                <p id="today-week" class="tile-value"></p>
+                            </div>
+                        </div>
+                        <div class="card stack">
+                            <h2 data-i18n="today_your_time"></h2>
+                            <ul id="today-sites" class="rows"></ul>
+                            <p id="today-none" class="muted" data-i18n="today_no_time" hidden></p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sites -->
+                <section id="sites" class="panel" role="tabpanel" aria-labelledby="tab-sites" tabindex="-1" hidden>
+                    <h1 data-i18n="sites_title"></h1>
+                    <div class="card stack">
+                        <form id="add-form" class="add-form" novalidate>
+                            <label class="visually-hidden" for="add-input" data-i18n="sites_add_label"></label>
+                            <div id="add-control" class="control add-input">
+                                <input id="add-input" class="input" type="text" dir="ltr" autocomplete="off" spellcheck="false" data-i18n-placeholder="sites_add_placeholder" />
+                            </div>
+                            <div id="add-mode"></div>
+                            <button class="btn primary lg" type="submit" data-i18n="sites_add"></button>
+                        </form>
+                        <p id="add-mode-hint" class="hint mode-hint" aria-live="polite"></p>
+                        <p id="add-error" class="error" role="alert" hidden></p>
+                        <div class="suggestions">
+                            <p class="muted small" data-i18n="sites_suggestions"></p>
+                            <div class="chips" id="site-suggestions"></div>
+                        </div>
+                    </div>
+                    <div class="card stack">
+                        <div id="access-all" class="inline-notice" hidden>
+                            <p class="muted" data-i18n="access_missing"></p>
+                            <button id="access-all-button" class="btn secondary md" type="button" data-i18n="access_give_all"></button>
+                        </div>
+                        <ul id="site-list" class="rows"></ul>
+                        <p id="site-empty" class="muted" data-i18n="sites_empty" hidden></p>
+                    </div>
+                </section>
+
+                <!-- Limits -->
+                <section id="limits" class="panel" role="tabpanel" aria-labelledby="tab-limits" tabindex="-1" hidden>
+                    <h1 data-i18n="tab_limits"></h1>
+                    <div class="card stack">
+                        <h2 data-i18n="allowance_title"></h2>
+                        <p class="muted" data-i18n="allowance_body"></p>
+                        <div class="chips" id="allowance-presets"></div>
+                        <div class="row">
+                            <label class="control sm number-control">
+                                <input id="allowance-input" class="input" type="number" min="0" max="1440" step="5" />
+                                <span class="suffix" data-i18n="minutes_per_day"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="card stack">
+                        <h2 data-i18n="schedule_title"></h2>
+                        <div id="schedule-switch"></div>
+                        <div id="schedule-fields" class="stack">
+                            <div id="schedule-days" class="chips" role="group" data-i18n-label="schedule_days"></div>
+                            <div class="row">
+                                <label class="field">
+                                    <span class="label" data-i18n="schedule_from"></span>
+                                    <span class="control sm"><input id="schedule-start" class="input" type="time" /></span>
+                                </label>
+                                <label class="field">
+                                    <span class="label" data-i18n="schedule_to"></span>
+                                    <span class="control sm"><input id="schedule-end" class="input" type="time" /></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Focus and lockdown -->
+                <section id="focus" class="panel" role="tabpanel" aria-labelledby="tab-focus" tabindex="-1" hidden>
+                    <h1 data-i18n="tab_focus"></h1>
+                    <div class="card stack">
+                        <h2 data-i18n="focus_title"></h2>
+                        <p class="muted" data-i18n="focus_body"></p>
+                        <div class="row">
+                            <label class="field">
+                                <span class="label" data-i18n="focus_work"></span>
+                                <span class="control sm"><input id="focus-work" class="input" type="number" min="1" max="240" /></span>
+                            </label>
+                            <label class="field">
+                                <span class="label" data-i18n="focus_break"></span>
+                                <span class="control sm"><input id="focus-break" class="input" type="number" min="1" max="60" /></span>
+                            </label>
+                        </div>
+                        <div>
+                            <button id="focus-start" class="btn3d" type="button"></button>
+                        </div>
+                    </div>
+                    <div id="lockdown-card" class="card stack">
+                        <h2 data-i18n="lockdown_title"></h2>
+                        <p class="muted" data-i18n="lockdown_body"></p>
+                        <p id="lockdown-active" class="lockdown-active" hidden></p>
+                        <div id="lockdown-lengths" class="chips" role="radiogroup" data-i18n-label="lockdown_length"></div>
+                        <div class="row">
+                            <button id="lockdown-start" class="btn primary lg" type="button"></button>
+                            <button id="lockdown-cancel" class="btn ghost lg" type="button" data-i18n="cancel" hidden></button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Hide -->
+                <section id="hide" class="panel" role="tabpanel" aria-labelledby="tab-hide" tabindex="-1" hidden>
+                    <h1 data-i18n="hide_title"></h1>
+                    <div class="card stack">
+                        <p class="muted" data-i18n="hide_body"></p>
+                        <div id="hide-list" class="switch-list"></div>
+                    </div>
+                </section>
+
+                <!-- More -->
+                <section id="more" class="panel" role="tabpanel" aria-labelledby="tab-more" tabindex="-1" hidden>
+                    <h1 data-i18n="tab_more"></h1>
+                    <div class="card stack">
+                        <h2 data-i18n="strict_title"></h2>
+                        <div id="strict-switch"></div>
+                        <p class="muted" data-i18n="strict_body"></p>
+                    </div>
+                    <div class="card stack">
+                        <h2 data-i18n="backup_title"></h2>
+                        <p class="muted" data-i18n="backup_body"></p>
+                        <div class="row">
+                            <button id="export" class="btn secondary md" type="button" data-i18n="backup_export"></button>
+                            <label class="btn secondary md">
+                                <span data-i18n="backup_import"></span>
+                                <input id="import" class="visually-hidden" type="file" accept="application/json,.json" />
+                            </label>
+                        </div>
+                        <p id="backup-message" role="status" hidden></p>
+                    </div>
+                    <div class="card stack">
+                        <h2 data-i18n="about_title"></h2>
+                        <p data-i18n="about_body"></p>
+                        <div class="row">
+                            <a id="learn" class="btn primary md" target="_blank" rel="noopener" data-i18n="learn_on_coddy"></a>
+                            <a class="btn secondary md" href="https://github.com/coddytech/coddy-focus" target="_blank" rel="noopener">
+                                <span data-i18n="about_source"></span><span data-icon="external"></span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,392 @@
+body {
+    background: var(--bg-primary);
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 32px;
+    max-inline-size: 1040px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+}
+
+/* --- The side rail, drawn like the site's profile rail (ProfileNav) --- */
+
+.side {
+    position: sticky;
+    inset-block-start: 32px;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand img {
+    border-radius: 10px;
+}
+
+.brand-name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.brand-tagline {
+    font-size: 13px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 16px;
+    border: var(--border-primary);
+    border-radius: 8px;
+    background-color: var(--bg-card);
+}
+
+.nav-item {
+    appearance: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    inline-size: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: none;
+    font: inherit;
+    color: inherit;
+    text-align: start;
+    cursor: pointer;
+    transition: background-color var(--motion-base);
+}
+
+.nav-item:hover,
+.nav-item[aria-selected='true'] {
+    background-color: var(--hover-background);
+}
+
+.nav-item:focus-visible {
+    outline-offset: -2px;
+}
+
+.nav-item[aria-selected='true'] span {
+    font-weight: 700;
+}
+
+/* The active row's marker, on the inline edge so it reads the same in RTL. */
+.nav-item[aria-selected='true']::before {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    inline-size: 3px;
+    block-size: 20px;
+    border-radius: 2px;
+    background-color: var(--brand-primary);
+}
+
+.nav-item svg {
+    color: var(--text-primary);
+}
+
+.nav-item[aria-selected='true'] svg {
+    color: var(--brand-primary);
+}
+
+/* --- Panels --- */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-inline-size: 0;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    animation: panel-in var(--motion-base) var(--motion-ease-enter);
+}
+
+.panel:focus {
+    outline: none;
+}
+
+@keyframes panel-in {
+    from {
+        opacity: 0;
+        transform: translateY(4px);
+    }
+}
+
+.panel h1 {
+    font-size: 28px;
+    margin-block-end: 4px;
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+/* A notice above the panels: a tint, never an edge stripe. */
+.notice,
+.inline-notice {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 16px;
+}
+
+.notice {
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: var(--control-tint);
+}
+
+/* --- Today --- */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.status-label {
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.status-big {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.clock {
+    font-variant-numeric: tabular-nums;
+}
+
+.status-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Focus and lockdown side by side, each with one quiet line saying what it does. */
+.hero-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 16px 24px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.mode-hint {
+    margin-block-start: -4px;
+}
+
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.tile-value {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+/* --- Rows (sites, time per site) --- */
+
+.rows {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rows li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+    padding-block: 12px;
+    border-block-start: 2px solid var(--border-color);
+}
+
+.rows li:first-child {
+    border-block-start: 0;
+    padding-block-start: 0;
+}
+
+.rows li:last-child {
+    padding-block-end: 0;
+}
+
+.rows .site {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1 1 160px;
+    min-inline-size: 0;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.rows .amount {
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.rows .access {
+    flex-basis: 100%;
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.site-bar {
+    flex-basis: 100%;
+    block-size: 6px;
+}
+
+/* --- Sites --- */
+
+.add-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.add-input {
+    flex: 1 1 240px;
+}
+
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* --- Limits, focus --- */
+
+.number-control {
+    cursor: text;
+}
+
+.lockdown-active {
+    font-weight: 600;
+}
+
+.switch-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.switch-list .switch-row {
+    padding-block: 12px;
+    border-block-start: 2px solid var(--border-color);
+}
+
+.switch-list .switch-row:first-child {
+    border-block-start: 0;
+}
+
+/* --- Narrow windows: the rail becomes a row of tabs --- */
+
+@media (max-width: 760px) {
+    .app {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+        padding: 16px 16px 48px;
+    }
+
+    .side {
+        position: static;
+        gap: 12px;
+    }
+
+    .brand-tagline {
+        display: none;
+    }
+
+    .nav {
+        flex-direction: row;
+        overflow-x: auto;
+        padding: 6px;
+        scrollbar-width: none;
+    }
+
+    .nav-item {
+        inline-size: auto;
+        flex: none;
+        gap: 8px;
+        padding: 8px 12px;
+    }
+
+    .nav-item[aria-selected='true']::before {
+        inset-block-end: 0;
+        inset-inline-start: 12px;
+        inset-inline-end: 12px;
+        inline-size: auto;
+        block-size: 3px;
+    }
+
+    .tiles,
+    .hero-actions {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .panel h1 {
+        font-size: 24px;
+    }
+}

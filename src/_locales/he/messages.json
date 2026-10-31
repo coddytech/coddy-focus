@@ -1,0 +1,386 @@
+{
+    "locale": {
+        "message": "he"
+    },
+    "dir": {
+        "message": "rtl"
+    },
+    "ext_name": {
+        "message": "Coddy Focus: חוסם אתרים וטיימר ריכוז"
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus"
+    },
+    "ext_description": {
+        "message": "חסמו אתרים מסיחים, הגדירו זמן יומי והתרכזו. חינם, קוד פתוח, והמידע שלכם לא יוצא מהדפדפן. ובמקום לגלול, למדו תכנות ב-Coddy."
+    },
+    "settings": {
+        "message": "הגדרות"
+    },
+    "cancel": {
+        "message": "ביטול"
+    },
+    "learn_on_coddy": {
+        "message": "ללמוד ב-Coddy"
+    },
+    "incognito_off": {
+        "message": "החסימה כבויה בחלונות גלישה בסתר. כדי להפעיל אותה, פתחו את דף התוסף ואפשרו לו לפעול בגלישה בסתר."
+    },
+    "incognito_fix": {
+        "message": "לפתוח את דף התוסף"
+    },
+    "popup_lockdown_title": {
+        "message": "הנעילה המלאה פעילה"
+    },
+    "popup_lockdown_until": {
+        "message": "האתרים שלכם חסומים עד {time}."
+    },
+    "popup_focus_title": {
+        "message": "סשן ריכוז"
+    },
+    "popup_focus_body": {
+        "message": "האתרים שלכם חסומים עד שהטיימר ייגמר."
+    },
+    "popup_focus_stop": {
+        "message": "לעצור את הסשן"
+    },
+    "popup_break_title": {
+        "message": "הפסקה"
+    },
+    "popup_break_body": {
+        "message": "קחו הפסקה קצרה. המגבלות הרגילות שלכם חלות."
+    },
+    "popup_break_end": {
+        "message": "לסיים את ההפסקה"
+    },
+    "popup_focus_start": {
+        "message": "להתחיל ריכוז של {duration}"
+    },
+    "popup_empty_title": {
+        "message": "הוסיפו את האתרים שמסיחים את דעתכם"
+    },
+    "popup_empty_body": {
+        "message": "ואז בחרו כמה זמן תקבלו בהם בכל יום."
+    },
+    "popup_empty_action": {
+        "message": "להוסיף אתרים"
+    },
+    "popup_off_title": {
+        "message": "המגבלות שלכם כבויות כרגע"
+    },
+    "popup_off_body": {
+        "message": "הן יחזרו לפעול ב-{time}."
+    },
+    "popup_blocked_title": {
+        "message": "האתרים שלכם חסומים"
+    },
+    "popup_blocked_body": {
+        "message": "כל אתר ברשימה שלכם חסום תמיד."
+    },
+    "popup_used_up_title": {
+        "message": "הזמן של היום נגמר"
+    },
+    "popup_used_up_body": {
+        "message": "האתרים שלכם ייפתחו שוב ב-{time}."
+    },
+    "popup_left_title": {
+        "message": "הזמן שנותר היום"
+    },
+    "popup_used_of": {
+        "message": "נוצלו {used} מתוך {total}"
+    },
+    "popup_site_not_listed": {
+        "message": "האתר {site} לא נמצא ברשימה שלכם."
+    },
+    "popup_site_listed_limited": {
+        "message": "האתר {site} נספר בזמן היומי שלכם."
+    },
+    "popup_site_listed_blocked": {
+        "message": "האתר {site} חסום בזמן המגבלות שלכם."
+    },
+    "popup_site_add": {
+        "message": "להוסיף את האתר הזה"
+    },
+    "popup_site_manage": {
+        "message": "לשנות בהגדרות"
+    },
+    "options_title": {
+        "message": "הגדרות Coddy Focus"
+    },
+    "options_tagline": {
+        "message": "פחות גלילה, יותר למידה."
+    },
+    "sites_title": {
+        "message": "האתרים שלכם"
+    },
+    "sites_add_label": {
+        "message": "אתר להוספה"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com או reddit.com/r/all"
+    },
+    "sites_mode_label": {
+        "message": "איך להגביל את האתר הזה"
+    },
+    "mode_limited": {
+        "message": "מגבלת זמן יומית"
+    },
+    "mode_blocked": {
+        "message": "חסום תמיד"
+    },
+    "sites_add": {
+        "message": "להוסיף"
+    },
+    "sites_empty": {
+        "message": "עדיין אין אתרים. הוסיפו את אלה שאתם מבזבזים בהם זמן."
+    },
+    "sites_invalid": {
+        "message": "זה לא נראה כמו כתובת של אתר."
+    },
+    "sites_duplicate": {
+        "message": "האתר הזה כבר ברשימה שלכם."
+    },
+    "sites_remove_label": {
+        "message": "להסיר את {site}"
+    },
+    "access_basic": {
+        "message": "ל-Coddy Focus אין גישה לאתר הזה, ולכן הזמן שלכם בו לא נספר. כשהאתר חסום, מוצג דף החסימה הבסיסי של הדפדפן במקום הדף של Coddy."
+    },
+    "access_give": {
+        "message": "לתת גישה"
+    },
+    "access_give_all": {
+        "message": "לתת גישה לכולם"
+    },
+    "access_missing": {
+        "message": "לחלק מהאתרים אין גישה. הזמן בהם לא נספר, וכשהם חסומים מוצג בהם דף החסימה הבסיסי של הדפדפן."
+    },
+    "allowance_title": {
+        "message": "זמן יומי"
+    },
+    "allowance_body": {
+        "message": "כל האתרים עם מגבלת זמן יומית חולקים את הזמן הזה. הגדירו 0 כדי לחסום את כולם כל היום."
+    },
+    "minutes_per_day": {
+        "message": "דקות ביום"
+    },
+    "schedule_title": {
+        "message": "מתי המגבלות חלות"
+    },
+    "schedule_enable": {
+        "message": "רק בשעות מסוימות"
+    },
+    "schedule_days": {
+        "message": "ימים"
+    },
+    "schedule_from": {
+        "message": "משעה"
+    },
+    "schedule_to": {
+        "message": "עד שעה"
+    },
+    "focus_title": {
+        "message": "טיימר ריכוז"
+    },
+    "focus_body": {
+        "message": "כל אתר ברשימה שלכם חסום בזמן שאתם עובדים, ואחר כך מגיעה הפסקה."
+    },
+    "focus_work": {
+        "message": "דקות עבודה"
+    },
+    "focus_break": {
+        "message": "דקות הפסקה"
+    },
+    "lockdown_title": {
+        "message": "נעילה מלאה"
+    },
+    "lockdown_body": {
+        "message": "חוסמת כל אתר ברשימה שלכם לכמה זמן שתבחרו. אי אפשר לעצור אותה אחרי שהיא מתחילה."
+    },
+    "lockdown_length": {
+        "message": "משך הנעילה"
+    },
+    "lockdown_start": {
+        "message": "להתחיל נעילה"
+    },
+    "lockdown_extend": {
+        "message": "להאריך"
+    },
+    "lockdown_confirm": {
+        "message": "כן, לנעול ל-{duration}"
+    },
+    "lockdown_active": {
+        "message": "הנעילה המלאה פעילה עד {time}."
+    },
+    "hide_title": {
+        "message": "להסתיר הסחות דעת"
+    },
+    "hide_body": {
+        "message": "השאירו את האתר פתוח, אבל הסתירו את החלקים שמושכים אתכם פנימה."
+    },
+    "hide_yt_shorts": {
+        "message": "להסתיר את YouTube Shorts"
+    },
+    "hide_yt_comments": {
+        "message": "להסתיר תגובות ב-YouTube"
+    },
+    "hide_yt_recommendations": {
+        "message": "להסתיר המלצות ב-YouTube"
+    },
+    "hide_ig_reels": {
+        "message": "להסתיר את Instagram Reels"
+    },
+    "strict_title": {
+        "message": "מצב קפדני"
+    },
+    "strict_enable": {
+        "message": "הקלה במגבלות תיכנס לתוקף רק מחר"
+    },
+    "strict_body": {
+        "message": "מגבלות מחמירות חלות מיד. הסרת אתר, הגדלת הזמן או כיבוי המצב הקפדני ייכנסו לתוקף בחצות."
+    },
+    "pending_strict": {
+        "message": "המצב הקפדני פעיל, ולכן שינויים שמקלים על המגבלות שלכם ייכנסו לתוקף בחצות."
+    },
+    "pending_lockdown": {
+        "message": "נעילה מלאה פעילה, ולכן שינויים שמקלים על המגבלות שלכם ייכנסו לתוקף ב-{time}."
+    },
+    "pending_cancel": {
+        "message": "להשאיר את המגבלות הנוכחיות שלי"
+    },
+    "backup_title": {
+        "message": "גיבוי"
+    },
+    "backup_body": {
+        "message": "שמרו את ההגדרות בקובץ, או טענו אותן מקובץ."
+    },
+    "backup_export": {
+        "message": "לשמור בקובץ"
+    },
+    "backup_import": {
+        "message": "לטעון מקובץ"
+    },
+    "backup_imported": {
+        "message": "ההגדרות נטענו."
+    },
+    "backup_invalid": {
+        "message": "הקובץ הזה אינו גיבוי של Coddy Focus."
+    },
+    "about_title": {
+        "message": "חינם וקוד פתוח"
+    },
+    "about_body": {
+        "message": "Coddy Focus לא שולח שום בקשות רשת ושומר הכול בדפדפן שלכם. כל אחד יכול לקרוא את הקוד."
+    },
+    "about_source": {
+        "message": "לצפות בקוד ב-GitHub"
+    },
+    "blocked_tab_title": {
+        "message": "חסום"
+    },
+    "blocked_title": {
+        "message": "האתר {site} חסום"
+    },
+    "blocked_reason_lockdown": {
+        "message": "הנעילה המלאה פעילה עד {time}."
+    },
+    "blocked_reason_focus": {
+        "message": "אתם בסשן ריכוז. נותרו {time}."
+    },
+    "blocked_reason_blocked": {
+        "message": "חסום בזמן המגבלות שלכם, עד {time}."
+    },
+    "blocked_reason_limit": {
+        "message": "ניצלתם את הזמן של היום. האתר ייפתח שוב ב-{time}."
+    },
+    "blocked_reason_always": {
+        "message": "האתר הזה חסום תמיד."
+    },
+    "blocked_learn": {
+        "message": "לעשות שיעור במקום"
+    },
+    "blocked_back": {
+        "message": "חזרה"
+    },
+    "blocked_pitch": {
+        "message": "שיעור תכנות קצר אחד ב-Coddy שווה יותר מעשר דקות של גלילה."
+    },
+    "blocked_open_title": {
+        "message": "האתר {site} פתוח שוב"
+    },
+    "blocked_open_body": {
+        "message": "החסימה הסתיימה."
+    },
+    "blocked_open_site": {
+        "message": "לפתוח את האתר"
+    },
+    "popup_used_up_midnight": {
+        "message": "האתרים שלכם ייפתחו שוב בחצות."
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "ניצלתם את הזמן של היום. האתר ייפתח שוב בחצות."
+    },
+    "tab_today": {
+        "message": "היום"
+    },
+    "today_no_time": {
+        "message": "עדיין לא נספר זמן. נספרים רק אתרים מהרשימה שלכם, ורק במכשיר הזה."
+    },
+    "nav_label": {
+        "message": "אזורי ההגדרות"
+    },
+    "tab_sites": {
+        "message": "אתרים"
+    },
+    "tab_limits": {
+        "message": "מגבלות"
+    },
+    "tab_focus": {
+        "message": "ריכוז"
+    },
+    "tab_hide": {
+        "message": "הסתרה"
+    },
+    "tab_more": {
+        "message": "עוד"
+    },
+    "today_blocked_now": {
+        "message": "אתרים חסומים כרגע"
+    },
+    "today_week": {
+        "message": "הזמן שלכם השבוע"
+    },
+    "today_your_time": {
+        "message": "הזמן שלכם היום"
+    },
+    "today_add_other": {
+        "message": "להוסיף אתר אחר"
+    },
+    "sites_suggestions": {
+        "message": "הוספה מהירה"
+    },
+    "toast_saved": {
+        "message": "נשמר"
+    },
+    "toast_saved_later": {
+        "message": "נשמר. שינויים שמקלים על המגבלות שלכם ייכנסו לתוקף מאוחר יותר."
+    },
+    "focus_then_break": {
+        "message": "אחר כך הפסקה של {duration}."
+    },
+    "sites_access_denied": {
+        "message": "{site} לא נוסף. Coddy Focus צריך גישה אליו כדי לספור את הזמן שלכם ולהציג את דף החסימה שלו."
+    },
+    "focus_hint": {
+        "message": "חוסם את כל האתרים ברשימה שלכם עד שהטיימר מסתיים, ואז נותן הפסקה קצרה. אפשר לעצור בכל רגע."
+    },
+    "lockdown_hint": {
+        "message": "חוסם את כל האתרים ברשימה שלכם למשך הזמן שבחרתם. אי אפשר לעצור לפני הסוף."
+    },
+    "mode_limited_hint": {
+        "message": "האתרים האלה חולקים את הזמן היומי שלכם. כשהוא נגמר, הם חסומים עד חצות."
+    },
+    "mode_blocked_hint": {
+        "message": "חסום כל היום, או רק בשעות שהגדרתם במגבלות."
+    }
+}

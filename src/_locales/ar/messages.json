@@ -1,0 +1,386 @@
+{
+    "locale": {
+        "message": "ar"
+    },
+    "dir": {
+        "message": "rtl"
+    },
+    "ext_name": {
+        "message": "Coddy Focus: حاجب المواقع ومؤقت التركيز"
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus"
+    },
+    "ext_description": {
+        "message": "احجب المواقع المشتتة وحدد وقتًا يوميًا وركّز. مجاني ومفتوح المصدر، وبياناتك لا تغادر متصفحك أبدًا. وتعلّم البرمجة على Coddy."
+    },
+    "settings": {
+        "message": "الإعدادات"
+    },
+    "cancel": {
+        "message": "إلغاء"
+    },
+    "learn_on_coddy": {
+        "message": "تعلّم على Coddy"
+    },
+    "incognito_off": {
+        "message": "الحجب متوقف في نوافذ التصفح المتخفي. لتفعيله، افتح صفحة الإضافة واسمح لها بالعمل في وضع التصفح المتخفي."
+    },
+    "incognito_fix": {
+        "message": "افتح صفحة الإضافة"
+    },
+    "popup_lockdown_title": {
+        "message": "الإغلاق التام مفعّل"
+    },
+    "popup_lockdown_until": {
+        "message": "مواقعك محجوبة حتى {time}."
+    },
+    "popup_focus_title": {
+        "message": "جلسة تركيز"
+    },
+    "popup_focus_body": {
+        "message": "مواقعك محجوبة حتى ينتهي المؤقت."
+    },
+    "popup_focus_stop": {
+        "message": "إيقاف الجلسة"
+    },
+    "popup_break_title": {
+        "message": "استراحة"
+    },
+    "popup_break_body": {
+        "message": "خذ استراحة قصيرة. حدودك المعتادة سارية."
+    },
+    "popup_break_end": {
+        "message": "إنهاء الاستراحة"
+    },
+    "popup_focus_start": {
+        "message": "ابدأ تركيزًا لمدة {duration}"
+    },
+    "popup_empty_title": {
+        "message": "أضف المواقع التي تشتت انتباهك"
+    },
+    "popup_empty_body": {
+        "message": "ثم اختر كم من الوقت تقضيه فيها كل يوم."
+    },
+    "popup_empty_action": {
+        "message": "إضافة مواقع"
+    },
+    "popup_off_title": {
+        "message": "حدودك متوقفة الآن"
+    },
+    "popup_off_body": {
+        "message": "تعود للعمل في {time}."
+    },
+    "popup_blocked_title": {
+        "message": "مواقعك محجوبة"
+    },
+    "popup_blocked_body": {
+        "message": "كل موقع في قائمتك محجوب دائمًا."
+    },
+    "popup_used_up_title": {
+        "message": "انتهى وقت اليوم"
+    },
+    "popup_used_up_body": {
+        "message": "تُفتح مواقعك مجددًا في {time}."
+    },
+    "popup_left_title": {
+        "message": "الوقت المتبقي اليوم"
+    },
+    "popup_used_of": {
+        "message": "استُخدم {used} من {total}"
+    },
+    "popup_site_not_listed": {
+        "message": "الموقع {site} ليس في قائمتك."
+    },
+    "popup_site_listed_limited": {
+        "message": "الموقع {site} يُحتسب من وقتك اليومي."
+    },
+    "popup_site_listed_blocked": {
+        "message": "الموقع {site} محجوب خلال أوقات حدودك."
+    },
+    "popup_site_add": {
+        "message": "أضف هذا الموقع"
+    },
+    "popup_site_manage": {
+        "message": "غيّره من الإعدادات"
+    },
+    "options_title": {
+        "message": "إعدادات Coddy Focus"
+    },
+    "options_tagline": {
+        "message": "تمرير أقل، تعلّم أكثر."
+    },
+    "sites_title": {
+        "message": "مواقعك"
+    },
+    "sites_add_label": {
+        "message": "الموقع المراد إضافته"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com أو reddit.com/r/all"
+    },
+    "sites_mode_label": {
+        "message": "طريقة تقييد هذا الموقع"
+    },
+    "mode_limited": {
+        "message": "حد زمني يومي"
+    },
+    "mode_blocked": {
+        "message": "محجوب دائمًا"
+    },
+    "sites_add": {
+        "message": "إضافة"
+    },
+    "sites_empty": {
+        "message": "لا توجد مواقع بعد. أضف المواقع التي يضيع فيها وقتك."
+    },
+    "sites_invalid": {
+        "message": "لا يبدو هذا عنوان موقع."
+    },
+    "sites_duplicate": {
+        "message": "هذا الموقع موجود في قائمتك بالفعل."
+    },
+    "sites_remove_label": {
+        "message": "إزالة {site}"
+    },
+    "access_basic": {
+        "message": "لا يملك Coddy Focus إذنًا بالوصول إلى هذا الموقع، لذا لا يمكنه احتساب وقتك فيه. وعند حجبه تظهر صفحة الحجب البسيطة الخاصة بالمتصفح بدلًا من صفحة Coddy."
+    },
+    "access_give": {
+        "message": "منح الإذن"
+    },
+    "access_give_all": {
+        "message": "منح الإذن للكل"
+    },
+    "access_missing": {
+        "message": "بعض المواقع بلا إذن وصول. لا يُحتسب الوقت فيها، وعند حجبها تظهر صفحة الحجب البسيطة الخاصة بالمتصفح."
+    },
+    "allowance_title": {
+        "message": "الوقت اليومي"
+    },
+    "allowance_body": {
+        "message": "كل المواقع ذات الحد الزمني اليومي تتشارك هذا الوقت. اضبطه على 0 لحجبها طوال اليوم."
+    },
+    "minutes_per_day": {
+        "message": "دقيقة يوميًا"
+    },
+    "schedule_title": {
+        "message": "متى تُطبَّق الحدود"
+    },
+    "schedule_enable": {
+        "message": "في أوقات محددة فقط"
+    },
+    "schedule_days": {
+        "message": "الأيام"
+    },
+    "schedule_from": {
+        "message": "من"
+    },
+    "schedule_to": {
+        "message": "إلى"
+    },
+    "focus_title": {
+        "message": "مؤقت التركيز"
+    },
+    "focus_body": {
+        "message": "كل موقع في قائمتك يُحجب أثناء عملك، ثم تحصل على استراحة."
+    },
+    "focus_work": {
+        "message": "دقائق العمل"
+    },
+    "focus_break": {
+        "message": "دقائق الاستراحة"
+    },
+    "lockdown_title": {
+        "message": "الإغلاق التام"
+    },
+    "lockdown_body": {
+        "message": "يحجب كل موقع في قائمتك للمدة التي تختارها. لا يمكنك إيقافه بعد أن يبدأ."
+    },
+    "lockdown_length": {
+        "message": "مدة الإغلاق"
+    },
+    "lockdown_start": {
+        "message": "ابدأ الإغلاق"
+    },
+    "lockdown_extend": {
+        "message": "مدّد المدة"
+    },
+    "lockdown_confirm": {
+        "message": "نعم، أغلق لمدة {duration}"
+    },
+    "lockdown_active": {
+        "message": "الإغلاق التام مفعّل حتى {time}."
+    },
+    "hide_title": {
+        "message": "إخفاء المشتتات"
+    },
+    "hide_body": {
+        "message": "أبقِ الموقع مفتوحًا وأخفِ الأجزاء التي تشدّك إليه."
+    },
+    "hide_yt_shorts": {
+        "message": "إخفاء Shorts في YouTube"
+    },
+    "hide_yt_comments": {
+        "message": "إخفاء تعليقات YouTube"
+    },
+    "hide_yt_recommendations": {
+        "message": "إخفاء اقتراحات YouTube"
+    },
+    "hide_ig_reels": {
+        "message": "إخفاء Reels في Instagram"
+    },
+    "strict_title": {
+        "message": "الوضع الصارم"
+    },
+    "strict_enable": {
+        "message": "تأجيل تخفيف الحدود إلى الغد"
+    },
+    "strict_body": {
+        "message": "تُطبَّق الحدود الأشد فورًا. أما إزالة موقع أو زيادة وقتك أو إيقاف الوضع الصارم فيسري عند منتصف الليل."
+    },
+    "pending_strict": {
+        "message": "الوضع الصارم مفعّل، لذا تسري التغييرات التي تخفف حدودك عند منتصف الليل."
+    },
+    "pending_lockdown": {
+        "message": "الإغلاق التام مفعّل، لذا تسري التغييرات التي تخفف حدودك في {time}."
+    },
+    "pending_cancel": {
+        "message": "أبقِ حدودي الحالية"
+    },
+    "backup_title": {
+        "message": "النسخ الاحتياطي"
+    },
+    "backup_body": {
+        "message": "احفظ إعداداتك في ملف، أو حمّلها من ملف."
+    },
+    "backup_export": {
+        "message": "حفظ في ملف"
+    },
+    "backup_import": {
+        "message": "تحميل من ملف"
+    },
+    "backup_imported": {
+        "message": "تم تحميل الإعدادات."
+    },
+    "backup_invalid": {
+        "message": "هذا الملف ليس نسخة احتياطية من Coddy Focus."
+    },
+    "about_title": {
+        "message": "مجاني ومفتوح المصدر"
+    },
+    "about_body": {
+        "message": "لا يرسل Coddy Focus أي طلبات عبر الشبكة ويحفظ كل شيء في متصفحك. يمكن لأي شخص قراءة الكود."
+    },
+    "about_source": {
+        "message": "اطّلع على الكود في GitHub"
+    },
+    "blocked_tab_title": {
+        "message": "محجوب"
+    },
+    "blocked_title": {
+        "message": "الموقع {site} محجوب"
+    },
+    "blocked_reason_lockdown": {
+        "message": "الإغلاق التام مفعّل حتى {time}."
+    },
+    "blocked_reason_focus": {
+        "message": "أنت في جلسة تركيز. تبقّى {time}."
+    },
+    "blocked_reason_blocked": {
+        "message": "محجوب خلال أوقات حدودك، حتى {time}."
+    },
+    "blocked_reason_limit": {
+        "message": "استخدمت وقت اليوم. يُفتح مجددًا في {time}."
+    },
+    "blocked_reason_always": {
+        "message": "هذا الموقع محجوب دائمًا."
+    },
+    "blocked_learn": {
+        "message": "خذ درسًا بدلًا من ذلك"
+    },
+    "blocked_back": {
+        "message": "رجوع"
+    },
+    "blocked_pitch": {
+        "message": "درس برمجة قصير على Coddy أفضل من عشر دقائق من التمرير."
+    },
+    "blocked_open_title": {
+        "message": "الموقع {site} مفتوح من جديد"
+    },
+    "blocked_open_body": {
+        "message": "انتهى الحجب."
+    },
+    "blocked_open_site": {
+        "message": "افتح الموقع"
+    },
+    "popup_used_up_midnight": {
+        "message": "تُفتح مواقعك مجددًا عند منتصف الليل."
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "استخدمت وقت اليوم. يُفتح مجددًا عند منتصف الليل."
+    },
+    "tab_today": {
+        "message": "اليوم"
+    },
+    "today_no_time": {
+        "message": "لم يُحتسب أي وقت بعد. تُحتسب المواقع الموجودة في قائمتك فقط، وعلى هذا الجهاز فقط."
+    },
+    "nav_label": {
+        "message": "أقسام الإعدادات"
+    },
+    "tab_sites": {
+        "message": "المواقع"
+    },
+    "tab_limits": {
+        "message": "الحدود"
+    },
+    "tab_focus": {
+        "message": "التركيز"
+    },
+    "tab_hide": {
+        "message": "الإخفاء"
+    },
+    "tab_more": {
+        "message": "المزيد"
+    },
+    "today_blocked_now": {
+        "message": "المواقع المحجوبة الآن"
+    },
+    "today_week": {
+        "message": "وقتك هذا الأسبوع"
+    },
+    "today_your_time": {
+        "message": "وقتك اليوم"
+    },
+    "today_add_other": {
+        "message": "أضف موقعًا آخر"
+    },
+    "sites_suggestions": {
+        "message": "إضافة سريعة"
+    },
+    "toast_saved": {
+        "message": "تم الحفظ"
+    },
+    "toast_saved_later": {
+        "message": "تم الحفظ. تسري التغييرات التي تخفف حدودك لاحقًا."
+    },
+    "focus_then_break": {
+        "message": "ثم استراحة لمدة {duration}."
+    },
+    "sites_access_denied": {
+        "message": "لم تتم إضافة {site}. يحتاج Coddy Focus إلى إذن الوصول إليه ليحتسب وقتك ويعرض صفحة الحجب الخاصة به."
+    },
+    "focus_hint": {
+        "message": "يحجب كل المواقع في قائمتك حتى ينتهي المؤقت، ثم يمنحك استراحة قصيرة. يمكنك إيقافه في أي وقت."
+    },
+    "lockdown_hint": {
+        "message": "يحجب كل المواقع في قائمتك طوال المدة التي تختارها. لا يمكن إيقافه قبل انتهائه."
+    },
+    "mode_limited_hint": {
+        "message": "تتشارك هذه المواقع وقتك اليومي. عندما ينتهي، تُحجب حتى منتصف الليل."
+    },
+    "mode_blocked_hint": {
+        "message": "محجوب طوال اليوم، أو فقط في الساعات التي تحددها في الحدود."
+    }
+}

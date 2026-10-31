@@ -1,0 +1,733 @@
+/* Shared look for the popup, settings and blocked pages, copied from
+   coddy.tech so the extension reads as part of Coddy: the default light and
+   dark theme tokens (globals.css), the form controls (Form.module.css), the
+   flat and 3D buttons (FlatButton, ButtonHome), the card (Card.module.css),
+   the toast (ToastContainer) and the fonts (Varela Round for text, Coddy
+   Round for headings). Keep the numbers in step with the site's. */
+
+@font-face {
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/varela-round-hebrew.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+@font-face {
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/varela-round-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329,
+        U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/varela-round-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+        U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/noto-sans-arabic-regular.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E,
+        U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+@font-face {
+    font-family: 'Coddy Round';
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/coddy-round-700-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+        U+2000-206F, U+20AC, U+2122, U+2190-2193, U+2212, U+2215, U+2260, U+2264-2265, U+2713-2714, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Coddy Round';
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/coddy-round-700-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329,
+        U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Coddy Round';
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/coddy-round-700-cyrillic.woff2) format('woff2');
+    unicode-range: U+0401, U+0404, U+0406-0407, U+0410-044F, U+0451, U+0454, U+0456-0457, U+2116;
+}
+@font-face {
+    font-family: 'Coddy Round';
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/coddy-round-700-hebrew.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+20AA, U+FB1D-FB4F;
+}
+@font-face {
+    font-family: 'Coddy Round';
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/coddy-round-700-arabic.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+FB50-FDFF,
+        U+FE70-FE74, U+FE76-FEFC;
+}
+
+/* Coddy's default light theme. */
+:root {
+    color-scheme: light;
+    --brand-primary: #0077ff;
+    --brand-primary-darker: #005dc8;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f1f5f9;
+    --bg-card: #ffffff;
+    --bg-progress: #cde7f1;
+    --text-primary: #000000de;
+    --text-secondary: #0000008a;
+    --text-on-brand-primary: #ffffffde;
+    --text-link: var(--brand-primary);
+    --border-color: #e6e6e6;
+    --hover-background: #eef2f6;
+    --success: #05b20c;
+    --error: #f44336;
+    --product-heart-color: #ff4b4b;
+
+    --font-text: 'Varela Round', 'Noto Sans Arabic', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', 'Helvetica', Arial,
+        sans-serif;
+    --font-display: 'Coddy Round', var(--font-text);
+
+    --motion-press: 100ms;
+    --motion-fast: 150ms;
+    --motion-base: 200ms;
+    --motion-slow: 300ms;
+    --motion-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+    --motion-ease-enter: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Coddy's default dark theme. */
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+        --brand-primary: #1b78a0;
+        --brand-primary-darker: #264d73;
+        --bg-primary: #252627;
+        --bg-secondary: #2d2e2f;
+        --bg-card: #2d2e2f;
+        --bg-progress: #424548;
+        --text-primary: rgba(255, 255, 255, 0.87);
+        --text-secondary: rgba(255, 255, 255, 0.6);
+        --text-on-brand-primary: rgba(255, 255, 255, 0.87);
+        --text-link: #34b4e4;
+        --border-color: #3b3e41;
+        --hover-background: #2e3134;
+        --success: #00ab72;
+        --error: #a90404;
+    }
+}
+
+:root {
+    --border-primary: 2px solid var(--border-color);
+    --text-error: color-mix(in srgb, var(--product-heart-color) 60%, var(--text-primary));
+    --text-success: color-mix(in srgb, var(--success) 45%, var(--text-primary));
+    --control-h-sm: 36px;
+    --control-h-md: 44px;
+    --control-radius: 8px;
+    --control-bg: var(--bg-card);
+    --control-border: 2px;
+    --control-line: var(--border-color);
+    --control-line-hover: color-mix(in srgb, var(--border-color), var(--text-primary) 30%);
+    --control-track-off: color-mix(in srgb, var(--text-primary) 42%, transparent);
+    --control-accent: var(--brand-primary);
+    --control-accent-strong: var(--brand-primary-darker);
+    --control-on-accent: var(--text-on-brand-primary);
+    --control-tint: color-mix(in srgb, var(--brand-primary) 12%, transparent);
+    --control-focus-ring: 0 0 0 3px color-mix(in srgb, var(--brand-primary) 28%, transparent);
+    --control-focus-outline: 2px solid var(--brand-primary);
+    --control-disabled-opacity: 0.55;
+    --control-knob: #ffffff;
+    --button-ink: color-mix(in srgb, var(--control-accent) 55%, var(--text-primary));
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-text);
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--text-link);
+}
+
+[hidden] {
+    display: none !important;
+}
+
+.muted {
+    color: var(--text-secondary);
+}
+
+.error {
+    color: var(--text-error);
+    font-size: 14px;
+}
+
+/* One quiet line under a control saying what it does. */
+.hint {
+    font-size: 13px;
+    line-height: 1.4;
+    color: var(--text-secondary);
+}
+
+/* Addresses and clocks keep their left-to-right order in any sentence. */
+.ltr {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+.visually-hidden {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+:where(a, button, input, select, [tabindex]):focus-visible {
+    outline: var(--control-focus-outline);
+    outline-offset: 2px;
+}
+
+/* --- Card (Card.module.css) --- */
+
+.card {
+    border: var(--border-primary);
+    border-radius: 12px;
+    background: var(--bg-card);
+    padding: 16px 20px;
+}
+
+/* --- Flat button (FlatButton.module.css) --- */
+
+.btn {
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 32px;
+    padding: 4px 12px;
+    margin: 0;
+    border: var(--control-border) solid transparent;
+    border-radius: var(--control-radius);
+    background: transparent;
+    color: var(--text-primary);
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition:
+        background-color var(--motion-fast) var(--motion-ease-standard),
+        border-color var(--motion-fast) var(--motion-ease-standard),
+        color var(--motion-fast) var(--motion-ease-standard),
+        transform var(--motion-press) var(--motion-ease-standard);
+}
+
+.btn:active:not(:disabled) {
+    transform: scale(0.97);
+}
+
+.btn:disabled {
+    opacity: var(--control-disabled-opacity);
+    cursor: default;
+}
+
+.btn svg,
+.btn img {
+    flex-shrink: 0;
+}
+
+/* An icon beside a label stays inside the button's text height. */
+.btn:not(.icon) svg {
+    inline-size: 18px;
+    block-size: 18px;
+}
+
+.btn.md {
+    min-height: var(--control-h-sm);
+    padding: 6px 14px;
+    font-size: 14px;
+}
+
+.btn.lg {
+    min-height: var(--control-h-md);
+    padding: 8px 18px;
+    font-size: 16px;
+}
+
+.btn.icon {
+    padding: 0;
+    min-width: 32px;
+}
+
+.btn.icon.md {
+    min-width: var(--control-h-sm);
+}
+
+.btn.primary {
+    background: var(--control-accent);
+    color: var(--control-on-accent);
+}
+
+.btn.primary:hover:not(:disabled) {
+    background: var(--control-accent-strong);
+}
+
+.btn.secondary {
+    background: var(--control-bg);
+    border-color: var(--control-line);
+}
+
+.btn.secondary:hover:not(:disabled) {
+    border-color: var(--control-line-hover);
+}
+
+.btn.soft {
+    background: var(--control-tint);
+    color: var(--button-ink);
+}
+
+.btn.soft:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--control-accent) 20%, transparent);
+}
+
+.btn.ghost:hover:not(:disabled) {
+    background: var(--hover-background);
+}
+
+.btn.danger {
+    background: color-mix(in srgb, var(--error) 12%, transparent);
+    color: var(--text-error);
+}
+
+.btn.link {
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 2px;
+    color: var(--button-ink);
+}
+
+.btn.link:hover:not(:disabled) {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+/* --- The 3D button, for the one main action of a screen (ButtonHome) --- */
+
+.btn3d {
+    position: relative;
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 12px 32px;
+    margin: 0 0 4px;
+    border: 0;
+    border-radius: 12px;
+    background: var(--brand-primary);
+    box-shadow: 0 4px 0 0 var(--brand-primary-darker);
+    color: var(--text-on-brand-primary);
+    font: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn3d:active:not(:disabled) {
+    box-shadow: 0 2px 0 0 var(--brand-primary-darker);
+    transform: translateY(2px);
+}
+
+/* Keeps the pressable area where the button was while it sinks. */
+.btn3d::after {
+    content: '';
+    position: absolute;
+    inset: 0 0 -4px;
+}
+
+.btn3d:active::after {
+    inset: -2px 0 -2px;
+}
+
+.btn3d:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+/* --- Form controls (Form.module.css) --- */
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-inline-size: 0;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-block-size: var(--control-h-md);
+    padding-inline: 12px;
+    border: var(--control-border) solid var(--control-line);
+    border-radius: var(--control-radius);
+    background-color: var(--control-bg);
+    color: var(--text-primary);
+    font-size: 16px;
+    cursor: text;
+    transition:
+        border-color var(--motion-fast) var(--motion-ease-standard),
+        box-shadow var(--motion-fast) var(--motion-ease-standard);
+}
+
+.control:hover {
+    border-color: var(--control-line-hover);
+}
+
+.control:focus-within {
+    border-color: var(--brand-primary);
+    box-shadow: var(--control-focus-ring);
+}
+
+.control.sm {
+    min-block-size: var(--control-h-sm);
+    padding-inline: 10px;
+    font-size: 14px;
+}
+
+.control.invalid {
+    border-color: var(--text-error);
+}
+
+.control.disabled {
+    opacity: var(--control-disabled-opacity);
+}
+
+.control .suffix {
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.input {
+    flex: 1;
+    align-self: stretch;
+    min-inline-size: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+}
+
+.input:focus-visible {
+    outline: none;
+}
+
+.input::placeholder {
+    color: var(--text-secondary);
+    opacity: 1;
+}
+
+input[type='number'].input {
+    inline-size: 4.5em;
+    flex: none;
+}
+
+.input[type='time'] {
+    color-scheme: inherit;
+}
+
+/* Addresses are typed left to right; the placeholder follows the page. */
+.input[dir='ltr']:placeholder-shown {
+    direction: inherit;
+}
+
+/* Switch: a row whose label sits on the start side and switch on the end. */
+.switch-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.switch-row .switch-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-inline-size: 0;
+}
+
+.switch {
+    position: relative;
+    display: inline-flex;
+    flex-shrink: 0;
+    inline-size: 44px;
+    block-size: 24px;
+}
+
+.switch input {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.switch .track {
+    position: relative;
+    inline-size: 100%;
+    block-size: 100%;
+    border-radius: 999px;
+    background-color: var(--control-track-off);
+    transition: background-color var(--motion-base) var(--motion-ease-standard);
+}
+
+.switch .knob {
+    position: absolute;
+    inset-block-start: 3px;
+    inset-inline-start: 3px;
+    inline-size: 18px;
+    block-size: 18px;
+    border-radius: 50%;
+    background-color: var(--control-knob);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 25%);
+    transition: transform var(--motion-base) var(--motion-ease-standard);
+}
+
+.switch input:checked + .track {
+    background-color: var(--control-accent);
+}
+
+.switch input:checked + .track .knob {
+    transform: translateX(20px);
+}
+
+[dir='rtl'] .switch input:checked + .track .knob {
+    transform: translateX(-20px);
+}
+
+.switch input:focus-visible + .track {
+    outline: var(--control-focus-outline);
+    outline-offset: 2px;
+}
+
+/* Segmented control: one choice of a few, as a radio group. */
+.segmented {
+    display: inline-flex;
+    align-items: stretch;
+    gap: 2px;
+    min-block-size: var(--control-h-md);
+    padding: 3px;
+    border: var(--control-border) solid var(--control-line);
+    border-radius: var(--control-radius);
+    background-color: var(--control-bg);
+}
+
+.segmented.sm {
+    min-block-size: var(--control-h-sm);
+}
+
+.segment {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 14px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    cursor: pointer;
+    transition:
+        color var(--motion-fast) var(--motion-ease-standard),
+        background-color var(--motion-fast) var(--motion-ease-standard);
+}
+
+.segmented.sm .segment {
+    padding-inline: 10px;
+    font-size: 14px;
+}
+
+.segment:hover:not([aria-checked='true']) {
+    color: var(--text-primary);
+}
+
+.segment[aria-checked='true'] {
+    background-color: var(--control-accent-strong);
+    color: var(--control-on-accent);
+}
+
+/* Chip: a picker (presets, days, suggestions). */
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-block-size: 32px;
+    padding-inline: 12px;
+    border: var(--control-border) solid var(--control-line);
+    border-radius: 999px;
+    background: none;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    white-space: nowrap;
+    cursor: pointer;
+    transition:
+        background-color var(--motion-fast) var(--motion-ease-standard),
+        border-color var(--motion-fast) var(--motion-ease-standard);
+}
+
+.chip:hover:not(:disabled) {
+    border-color: var(--control-line-hover);
+    background-color: color-mix(in srgb, var(--text-primary) 5%, transparent);
+}
+
+.chip[aria-pressed='true'],
+.chip[aria-checked='true'] {
+    border-color: var(--control-accent);
+    background-color: var(--control-tint);
+}
+
+.chip:disabled {
+    cursor: default;
+    opacity: var(--control-disabled-opacity);
+}
+
+/* --- Progress bar (the site's --bg-progress track) --- */
+
+.progress {
+    block-size: 10px;
+    border-radius: 999px;
+    background: var(--bg-progress);
+    overflow: hidden;
+}
+
+.progress > span {
+    display: block;
+    block-size: 100%;
+    border-radius: inherit;
+    background: var(--brand-primary);
+    transition: inline-size var(--motion-slow) var(--motion-ease-standard);
+}
+
+/* --- Site icon from the browser's own favicon cache --- */
+
+.favicon {
+    inline-size: 20px;
+    block-size: 20px;
+    flex-shrink: 0;
+    border-radius: 4px;
+}
+
+/* --- Toast (ToastContainer.module.css) --- */
+
+.toasts {
+    position: fixed;
+    inset-block-start: 16px;
+    inset-inline-end: 16px;
+    z-index: 10;
+    inline-size: 340px;
+    max-inline-size: calc(100vw - 32px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    pointer-events: none;
+}
+
+.toast {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-block-size: 52px;
+    padding: 14px;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    animation: toast-in 220ms ease-out backwards;
+}
+
+.toast svg {
+    color: var(--text-success);
+}
+
+.toast-error {
+    color: var(--text-error);
+}
+
+@keyframes toast-in {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+}

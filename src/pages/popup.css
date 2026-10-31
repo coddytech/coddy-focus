@@ -1,0 +1,117 @@
+body {
+    inline-size: 360px;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+}
+
+.popup-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.popup-header img {
+    border-radius: 8px;
+}
+
+.popup-header h1 {
+    flex: 1;
+    font-size: 18px;
+}
+
+.status-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.status-label {
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.status-big {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.clock {
+    font-variant-numeric: tabular-nums;
+}
+
+.status-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn3d.block {
+    inline-size: 100%;
+    padding-inline: 16px;
+    font-size: 15px;
+}
+
+.btn.block {
+    inline-size: 100%;
+}
+
+/* Focus and lockdown, each with one quiet line saying what it does. */
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.site-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 14px 16px;
+}
+
+.site-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.site-card .btn {
+    align-self: flex-start;
+}
+
+.notice {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 8px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: var(--control-tint);
+    font-size: 14px;
+}
+
+.popup-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}

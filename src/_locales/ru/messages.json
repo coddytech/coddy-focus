@@ -1,0 +1,386 @@
+{
+    "locale": {
+        "message": "ru"
+    },
+    "dir": {
+        "message": "ltr"
+    },
+    "ext_name": {
+        "message": "Coddy Focus: блокировщик сайтов и таймер фокуса"
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus"
+    },
+    "ext_description": {
+        "message": "Блокируйте отвлекающие сайты, ставьте лимиты и сосредоточьтесь. Бесплатно, код открыт, данные остаются в браузере. Учитесь на Coddy."
+    },
+    "settings": {
+        "message": "Настройки"
+    },
+    "cancel": {
+        "message": "Отмена"
+    },
+    "learn_on_coddy": {
+        "message": "Учиться на Coddy"
+    },
+    "incognito_off": {
+        "message": "В окнах инкогнито блокировка выключена. Чтобы включить её, откройте страницу расширения и разрешите работу в режиме инкогнито."
+    },
+    "incognito_fix": {
+        "message": "Открыть страницу расширения"
+    },
+    "popup_lockdown_title": {
+        "message": "Полная блокировка включена"
+    },
+    "popup_lockdown_until": {
+        "message": "Ваши сайты заблокированы до {time}."
+    },
+    "popup_focus_title": {
+        "message": "Сессия фокуса"
+    },
+    "popup_focus_body": {
+        "message": "Ваши сайты заблокированы, пока не закончится таймер."
+    },
+    "popup_focus_stop": {
+        "message": "Остановить сессию"
+    },
+    "popup_break_title": {
+        "message": "Перерыв"
+    },
+    "popup_break_body": {
+        "message": "Сделайте короткий перерыв. Ваши обычные лимиты действуют."
+    },
+    "popup_break_end": {
+        "message": "Закончить перерыв"
+    },
+    "popup_focus_start": {
+        "message": "Начать фокус на {duration}"
+    },
+    "popup_empty_title": {
+        "message": "Добавьте сайты, которые вас отвлекают"
+    },
+    "popup_empty_body": {
+        "message": "Затем выберите, сколько времени в день на них можно проводить."
+    },
+    "popup_empty_action": {
+        "message": "Добавить сайты"
+    },
+    "popup_off_title": {
+        "message": "Сейчас ваши лимиты не действуют"
+    },
+    "popup_off_body": {
+        "message": "Они снова начнут действовать в {time}."
+    },
+    "popup_blocked_title": {
+        "message": "Ваши сайты заблокированы"
+    },
+    "popup_blocked_body": {
+        "message": "Все сайты из вашего списка всегда заблокированы."
+    },
+    "popup_used_up_title": {
+        "message": "Время на сегодня закончилось"
+    },
+    "popup_used_up_body": {
+        "message": "Ваши сайты снова откроются в {time}."
+    },
+    "popup_used_up_midnight": {
+        "message": "Ваши сайты снова откроются в полночь."
+    },
+    "popup_left_title": {
+        "message": "Осталось на сегодня"
+    },
+    "popup_used_of": {
+        "message": "Использовано {used} из {total}"
+    },
+    "popup_site_not_listed": {
+        "message": "{site} нет в вашем списке."
+    },
+    "popup_site_listed_limited": {
+        "message": "Время на {site} идёт в счёт дневного лимита."
+    },
+    "popup_site_listed_blocked": {
+        "message": "{site} блокируется, пока действуют ваши лимиты."
+    },
+    "popup_site_add": {
+        "message": "Добавить этот сайт"
+    },
+    "popup_site_manage": {
+        "message": "Изменить в настройках"
+    },
+    "options_title": {
+        "message": "Настройки Coddy Focus"
+    },
+    "options_tagline": {
+        "message": "Меньше скроллинга, больше учёбы."
+    },
+    "sites_title": {
+        "message": "Ваши сайты"
+    },
+    "sites_add_label": {
+        "message": "Адрес сайта"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com или reddit.com/r/all"
+    },
+    "sites_mode_label": {
+        "message": "Как ограничить этот сайт"
+    },
+    "mode_limited": {
+        "message": "Дневной лимит времени"
+    },
+    "mode_blocked": {
+        "message": "Всегда заблокирован"
+    },
+    "sites_add": {
+        "message": "Добавить"
+    },
+    "sites_empty": {
+        "message": "Сайтов пока нет. Добавьте те, на которые уходит ваше время."
+    },
+    "sites_invalid": {
+        "message": "Это не похоже на адрес сайта."
+    },
+    "sites_duplicate": {
+        "message": "Этот сайт уже есть в вашем списке."
+    },
+    "sites_remove_label": {
+        "message": "Удалить {site}"
+    },
+    "access_basic": {
+        "message": "У Coddy Focus нет доступа к этому сайту, поэтому время на нём не учитывается. Когда сайт заблокирован, вместо страницы Coddy показывается обычная страница блокировки браузера."
+    },
+    "access_give": {
+        "message": "Дать доступ"
+    },
+    "access_give_all": {
+        "message": "Дать доступ ко всем"
+    },
+    "access_missing": {
+        "message": "К некоторым сайтам нет доступа. Время на них не учитывается, а при блокировке на них показывается обычная страница блокировки браузера."
+    },
+    "allowance_title": {
+        "message": "Время в день"
+    },
+    "allowance_body": {
+        "message": "Это время общее для всех сайтов с дневным лимитом. Укажите 0, чтобы блокировать их весь день."
+    },
+    "minutes_per_day": {
+        "message": "минут в день"
+    },
+    "schedule_title": {
+        "message": "Когда действуют лимиты"
+    },
+    "schedule_enable": {
+        "message": "Только в определённое время"
+    },
+    "schedule_days": {
+        "message": "Дни"
+    },
+    "schedule_from": {
+        "message": "С"
+    },
+    "schedule_to": {
+        "message": "До"
+    },
+    "focus_title": {
+        "message": "Таймер фокуса"
+    },
+    "focus_body": {
+        "message": "Пока вы работаете, все сайты из вашего списка заблокированы, а потом у вас перерыв."
+    },
+    "focus_work": {
+        "message": "Минуты работы"
+    },
+    "focus_break": {
+        "message": "Минуты перерыва"
+    },
+    "lockdown_title": {
+        "message": "Полная блокировка"
+    },
+    "lockdown_body": {
+        "message": "Блокирует все сайты из вашего списка на выбранное вами время. После запуска её нельзя остановить."
+    },
+    "lockdown_length": {
+        "message": "Длительность блокировки"
+    },
+    "lockdown_start": {
+        "message": "Начать блокировку"
+    },
+    "lockdown_extend": {
+        "message": "Продлить"
+    },
+    "lockdown_confirm": {
+        "message": "Да, заблокировать на {duration}"
+    },
+    "lockdown_active": {
+        "message": "Полная блокировка включена до {time}."
+    },
+    "hide_title": {
+        "message": "Скрыть отвлекающее"
+    },
+    "hide_body": {
+        "message": "Оставьте сайт открытым, но скройте то, что затягивает."
+    },
+    "hide_yt_shorts": {
+        "message": "Скрыть YouTube Shorts"
+    },
+    "hide_yt_comments": {
+        "message": "Скрыть комментарии на YouTube"
+    },
+    "hide_yt_recommendations": {
+        "message": "Скрыть рекомендации на YouTube"
+    },
+    "hide_ig_reels": {
+        "message": "Скрыть Reels в Instagram"
+    },
+    "strict_title": {
+        "message": "Строгий режим"
+    },
+    "strict_enable": {
+        "message": "Откладывать ослабление лимитов до завтра"
+    },
+    "strict_body": {
+        "message": "Более строгие лимиты действуют сразу. Удаление сайта, увеличение времени или отключение строгого режима вступают в силу в полночь."
+    },
+    "pending_strict": {
+        "message": "Строгий режим включён, поэтому изменения, которые ослабляют ваши лимиты, вступят в силу в полночь."
+    },
+    "pending_lockdown": {
+        "message": "Идёт полная блокировка, поэтому изменения, которые ослабляют ваши лимиты, вступят в силу в {time}."
+    },
+    "pending_cancel": {
+        "message": "Оставить текущие лимиты"
+    },
+    "backup_title": {
+        "message": "Резервная копия"
+    },
+    "backup_body": {
+        "message": "Сохраните настройки в файл или загрузите их из файла."
+    },
+    "backup_export": {
+        "message": "Сохранить в файл"
+    },
+    "backup_import": {
+        "message": "Загрузить из файла"
+    },
+    "backup_imported": {
+        "message": "Настройки загружены."
+    },
+    "backup_invalid": {
+        "message": "Этот файл не резервная копия Coddy Focus."
+    },
+    "about_title": {
+        "message": "Бесплатно и с открытым кодом"
+    },
+    "about_body": {
+        "message": "Coddy Focus не отправляет сетевых запросов и хранит всё в вашем браузере. Код может прочитать любой."
+    },
+    "about_source": {
+        "message": "Посмотреть код на GitHub"
+    },
+    "blocked_tab_title": {
+        "message": "Заблокировано"
+    },
+    "blocked_title": {
+        "message": "{site} заблокирован"
+    },
+    "blocked_reason_lockdown": {
+        "message": "Полная блокировка действует до {time}."
+    },
+    "blocked_reason_focus": {
+        "message": "Идёт сессия фокуса. Осталось {time}."
+    },
+    "blocked_reason_blocked": {
+        "message": "Заблокировано, пока действуют ваши лимиты, до {time}."
+    },
+    "blocked_reason_limit": {
+        "message": "Время на сегодня израсходовано. Сайт снова откроется в {time}."
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "Время на сегодня израсходовано. Сайт снова откроется в полночь."
+    },
+    "blocked_reason_always": {
+        "message": "Этот сайт заблокирован всегда."
+    },
+    "blocked_learn": {
+        "message": "Лучше пройти урок"
+    },
+    "blocked_back": {
+        "message": "Назад"
+    },
+    "blocked_pitch": {
+        "message": "Один короткий урок программирования на Coddy лучше десяти минут скроллинга."
+    },
+    "blocked_open_title": {
+        "message": "{site} снова открыт"
+    },
+    "blocked_open_body": {
+        "message": "Блокировка закончилась."
+    },
+    "blocked_open_site": {
+        "message": "Открыть сайт"
+    },
+    "tab_today": {
+        "message": "Сегодня"
+    },
+    "today_no_time": {
+        "message": "Время пока не учтено. Считаются только сайты из вашего списка и только на этом устройстве."
+    },
+    "nav_label": {
+        "message": "Разделы настроек"
+    },
+    "tab_sites": {
+        "message": "Сайты"
+    },
+    "tab_limits": {
+        "message": "Лимиты"
+    },
+    "tab_focus": {
+        "message": "Фокус"
+    },
+    "tab_hide": {
+        "message": "Скрыть"
+    },
+    "tab_more": {
+        "message": "Ещё"
+    },
+    "today_blocked_now": {
+        "message": "Сайтов заблокировано сейчас"
+    },
+    "today_week": {
+        "message": "Ваше время на этой неделе"
+    },
+    "today_your_time": {
+        "message": "Ваше время сегодня"
+    },
+    "today_add_other": {
+        "message": "Добавить другой сайт"
+    },
+    "sites_suggestions": {
+        "message": "Быстро добавить"
+    },
+    "toast_saved": {
+        "message": "Сохранено"
+    },
+    "toast_saved_later": {
+        "message": "Сохранено. Изменения, которые ослабляют ваши лимиты, вступят в силу позже."
+    },
+    "focus_then_break": {
+        "message": "Затем перерыв: {duration}."
+    },
+    "sites_access_denied": {
+        "message": "Сайт {site} не добавлен. Coddy Focus нужен доступ к нему, чтобы учитывать ваше время и показывать свою страницу блокировки."
+    },
+    "focus_hint": {
+        "message": "Блокирует все сайты из вашего списка, пока не закончится таймер, затем даёт короткий перерыв. Остановить можно в любой момент."
+    },
+    "lockdown_hint": {
+        "message": "Блокирует все сайты из вашего списка на выбранное время. Остановить раньше нельзя."
+    },
+    "mode_limited_hint": {
+        "message": "Эти сайты делят ваше время на день. Когда оно закончится, они заблокированы до полуночи."
+    },
+    "mode_blocked_hint": {
+        "message": "Заблокирован весь день или только в часы, заданные в разделе «Лимиты»."
+    }
+}

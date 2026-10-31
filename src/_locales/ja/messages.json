@@ -1,0 +1,386 @@
+{
+    "locale": {
+        "message": "ja"
+    },
+    "dir": {
+        "message": "ltr"
+    },
+    "ext_name": {
+        "message": "Coddy Focus: サイトブロッカーと集中タイマー"
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus"
+    },
+    "ext_description": {
+        "message": "気が散るサイトをブロックし、1日の利用時間を決めて集中しよう。無料のオープンソースで、データがブラウザの外に出ることはありません。代わりにCoddyでコードを学ぼう。"
+    },
+    "settings": {
+        "message": "設定"
+    },
+    "cancel": {
+        "message": "キャンセル"
+    },
+    "learn_on_coddy": {
+        "message": "Coddyで学ぶ"
+    },
+    "incognito_off": {
+        "message": "シークレット ウィンドウではブロックがオフになっています。オンにするには、拡張機能のページを開いてシークレット モードでの実行を許可してください。"
+    },
+    "incognito_fix": {
+        "message": "拡張機能のページを開く"
+    },
+    "popup_lockdown_title": {
+        "message": "ロックダウン中"
+    },
+    "popup_lockdown_until": {
+        "message": "{time}までサイトはブロックされています。"
+    },
+    "popup_focus_title": {
+        "message": "集中セッション"
+    },
+    "popup_focus_body": {
+        "message": "タイマーが終わるまでサイトはブロックされます。"
+    },
+    "popup_focus_stop": {
+        "message": "セッションを終了"
+    },
+    "popup_break_title": {
+        "message": "休憩"
+    },
+    "popup_break_body": {
+        "message": "少し休憩しましょう。いつもの制限が適用されます。"
+    },
+    "popup_break_end": {
+        "message": "休憩を終える"
+    },
+    "popup_focus_start": {
+        "message": "{duration}の集中を開始"
+    },
+    "popup_empty_title": {
+        "message": "気が散るサイトを追加しましょう"
+    },
+    "popup_empty_body": {
+        "message": "次に、それらのサイトを1日にどれだけ使えるかを決めます。"
+    },
+    "popup_empty_action": {
+        "message": "サイトを追加"
+    },
+    "popup_off_title": {
+        "message": "今は制限がオフです"
+    },
+    "popup_off_body": {
+        "message": "{time}に再開します。"
+    },
+    "popup_blocked_title": {
+        "message": "サイトはブロックされています"
+    },
+    "popup_blocked_body": {
+        "message": "リストにあるサイトはすべて常にブロックされます。"
+    },
+    "popup_used_up_title": {
+        "message": "今日の時間を使い切りました"
+    },
+    "popup_used_up_body": {
+        "message": "{time}にまたサイトを開けるようになります。"
+    },
+    "popup_left_title": {
+        "message": "今日の残り時間"
+    },
+    "popup_used_of": {
+        "message": "{total}のうち{used}を使用"
+    },
+    "popup_site_not_listed": {
+        "message": "{site}はリストにありません。"
+    },
+    "popup_site_listed_limited": {
+        "message": "{site}は1日の利用時間にカウントされます。"
+    },
+    "popup_site_listed_blocked": {
+        "message": "{site}は制限中はブロックされます。"
+    },
+    "popup_site_add": {
+        "message": "このサイトを追加"
+    },
+    "popup_site_manage": {
+        "message": "設定で変更"
+    },
+    "options_title": {
+        "message": "Coddy Focusの設定"
+    },
+    "options_tagline": {
+        "message": "スクロールを減らして、もっと学ぼう。"
+    },
+    "sites_title": {
+        "message": "サイトリスト"
+    },
+    "sites_add_label": {
+        "message": "追加するサイト"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com または reddit.com/r/all"
+    },
+    "sites_mode_label": {
+        "message": "このサイトの制限方法"
+    },
+    "mode_limited": {
+        "message": "1日の時間制限"
+    },
+    "mode_blocked": {
+        "message": "常にブロック"
+    },
+    "sites_add": {
+        "message": "追加"
+    },
+    "sites_empty": {
+        "message": "まだサイトがありません。つい時間を使ってしまうサイトを追加しましょう。"
+    },
+    "sites_invalid": {
+        "message": "サイトのアドレスではないようです。"
+    },
+    "sites_duplicate": {
+        "message": "そのサイトはすでにリストにあります。"
+    },
+    "sites_remove_label": {
+        "message": "{site}を削除"
+    },
+    "access_basic": {
+        "message": "Coddy Focusにはこのサイトへのアクセス権がないため、このサイトでの利用時間は記録されません。ブロック時には、Coddyのページではなくブラウザ標準のブロックページが表示されます。"
+    },
+    "access_give": {
+        "message": "アクセスを許可"
+    },
+    "access_give_all": {
+        "message": "すべてに許可"
+    },
+    "access_missing": {
+        "message": "アクセス権のないサイトがあります。それらのサイトでの利用時間は記録されず、ブロック時にはブラウザ標準のブロックページが表示されます。"
+    },
+    "allowance_title": {
+        "message": "1日の利用時間"
+    },
+    "allowance_body": {
+        "message": "1日の時間制限があるサイトはすべて、この時間を共有します。0にすると終日ブロックされます。"
+    },
+    "minutes_per_day": {
+        "message": "分/日"
+    },
+    "schedule_title": {
+        "message": "制限を適用する時間"
+    },
+    "schedule_enable": {
+        "message": "特定の時間だけ"
+    },
+    "schedule_days": {
+        "message": "曜日"
+    },
+    "schedule_from": {
+        "message": "開始"
+    },
+    "schedule_to": {
+        "message": "終了"
+    },
+    "focus_title": {
+        "message": "集中タイマー"
+    },
+    "focus_body": {
+        "message": "作業中はリストのサイトがすべてブロックされ、その後に休憩があります。"
+    },
+    "focus_work": {
+        "message": "作業時間（分）"
+    },
+    "focus_break": {
+        "message": "休憩時間（分）"
+    },
+    "lockdown_title": {
+        "message": "ロックダウン"
+    },
+    "lockdown_body": {
+        "message": "選んだ時間のあいだ、リストのサイトをすべてブロックします。一度始めると止められません。"
+    },
+    "lockdown_length": {
+        "message": "ロックダウンの長さ"
+    },
+    "lockdown_start": {
+        "message": "ロックダウンを開始"
+    },
+    "lockdown_extend": {
+        "message": "延長する"
+    },
+    "lockdown_confirm": {
+        "message": "はい、{duration}ロックします"
+    },
+    "lockdown_active": {
+        "message": "{time}までロックダウン中です。"
+    },
+    "hide_title": {
+        "message": "気が散る要素を隠す"
+    },
+    "hide_body": {
+        "message": "サイトは開いたまま、つい見入ってしまう部分を隠します。"
+    },
+    "hide_yt_shorts": {
+        "message": "YouTubeのショートを非表示"
+    },
+    "hide_yt_comments": {
+        "message": "YouTubeのコメントを非表示"
+    },
+    "hide_yt_recommendations": {
+        "message": "YouTubeのおすすめを非表示"
+    },
+    "hide_ig_reels": {
+        "message": "Instagramのリールを非表示"
+    },
+    "strict_title": {
+        "message": "厳格モード"
+    },
+    "strict_enable": {
+        "message": "制限をゆるめる変更は翌日から反映"
+    },
+    "strict_body": {
+        "message": "制限を厳しくする変更はすぐに反映されます。サイトの削除、時間の延長、厳格モードのオフは深夜0時に反映されます。"
+    },
+    "pending_strict": {
+        "message": "厳格モードがオンのため、制限をゆるめる変更は午前0時に反映されます。"
+    },
+    "pending_lockdown": {
+        "message": "ロックダウン中のため、制限をゆるめる変更は{time}に反映されます。"
+    },
+    "pending_cancel": {
+        "message": "今の制限のままにする"
+    },
+    "backup_title": {
+        "message": "バックアップ"
+    },
+    "backup_body": {
+        "message": "設定をファイルに保存したり、ファイルから読み込んだりできます。"
+    },
+    "backup_export": {
+        "message": "ファイルに保存"
+    },
+    "backup_import": {
+        "message": "ファイルから読み込む"
+    },
+    "backup_imported": {
+        "message": "設定を読み込みました。"
+    },
+    "backup_invalid": {
+        "message": "このファイルはCoddy Focusのバックアップではありません。"
+    },
+    "about_title": {
+        "message": "無料でオープンソース"
+    },
+    "about_body": {
+        "message": "Coddy Focusはネットワーク通信を一切行わず、すべてをブラウザ内に保存します。コードは誰でも読めます。"
+    },
+    "about_source": {
+        "message": "GitHubでコードを見る"
+    },
+    "blocked_tab_title": {
+        "message": "ブロック中"
+    },
+    "blocked_title": {
+        "message": "{site}はブロックされています"
+    },
+    "blocked_reason_lockdown": {
+        "message": "{time}までロックダウン中です。"
+    },
+    "blocked_reason_focus": {
+        "message": "集中セッション中です。残り{time}。"
+    },
+    "blocked_reason_blocked": {
+        "message": "制限中のため、{time}までブロックされています。"
+    },
+    "blocked_reason_limit": {
+        "message": "今日の時間を使い切りました。{time}にまた開けるようになります。"
+    },
+    "blocked_reason_always": {
+        "message": "このサイトは常にブロックされています。"
+    },
+    "blocked_learn": {
+        "message": "代わりにレッスンをやる"
+    },
+    "blocked_back": {
+        "message": "戻る"
+    },
+    "blocked_pitch": {
+        "message": "10分のスクロールより、Coddyの短いコーディングレッスン1つのほうがずっと価値があります。"
+    },
+    "blocked_open_title": {
+        "message": "{site}がまた開けるようになりました"
+    },
+    "blocked_open_body": {
+        "message": "ブロックが終了しました。"
+    },
+    "blocked_open_site": {
+        "message": "サイトを開く"
+    },
+    "popup_used_up_midnight": {
+        "message": "午前0時にまたサイトを開けるようになります。"
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "今日の時間を使い切りました。午前0時にまた開けるようになります。"
+    },
+    "tab_today": {
+        "message": "今日"
+    },
+    "today_no_time": {
+        "message": "まだ記録された時間はありません。記録されるのはリストにあるサイトだけで、このデバイスでの利用のみです。"
+    },
+    "nav_label": {
+        "message": "設定のセクション"
+    },
+    "tab_sites": {
+        "message": "サイト"
+    },
+    "tab_limits": {
+        "message": "制限"
+    },
+    "tab_focus": {
+        "message": "集中"
+    },
+    "tab_hide": {
+        "message": "非表示"
+    },
+    "tab_more": {
+        "message": "その他"
+    },
+    "today_blocked_now": {
+        "message": "現在ブロック中のサイト"
+    },
+    "today_week": {
+        "message": "今週の利用時間"
+    },
+    "today_your_time": {
+        "message": "今日の利用時間"
+    },
+    "today_add_other": {
+        "message": "ほかのサイトを追加"
+    },
+    "sites_suggestions": {
+        "message": "すぐに追加"
+    },
+    "toast_saved": {
+        "message": "保存しました"
+    },
+    "toast_saved_later": {
+        "message": "保存しました。制限をゆるめる変更は後で反映されます。"
+    },
+    "focus_then_break": {
+        "message": "その後、{duration}の休憩です。"
+    },
+    "sites_access_denied": {
+        "message": "{site}は追加されませんでした。利用時間の記録と独自のブロックページの表示には、このサイトへのアクセス権が必要です。"
+    },
+    "focus_hint": {
+        "message": "タイマーが終わるまでリストのすべてのサイトをブロックし、その後に短い休憩があります。いつでも停止できます。"
+    },
+    "lockdown_hint": {
+        "message": "選んだ時間のあいだ、リストのすべてのサイトをブロックします。途中で止めることはできません。"
+    },
+    "mode_limited_hint": {
+        "message": "これらのサイトは1日の利用時間を共有します。使い切ると、深夜0時までブロックされます。"
+    },
+    "mode_blocked_hint": {
+        "message": "1日中ブロック、または「制限」で設定した時間帯だけブロックします。"
+    }
+}

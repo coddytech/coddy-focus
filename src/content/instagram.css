@@ -1,0 +1,7 @@
+/* Hides the links into Reels when "Hide Reels" is on (instagram.js marks
+   the page): the Reels feed in the menu and a profile's Reels tab. Matched
+   by address, which works in every language. */
+
+html[data-coddy-focus~='igReels'] :is(a[href^='/reels/'], a[href$='/reels/']) {
+    display: none !important;
+}

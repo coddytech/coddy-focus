@@ -1,0 +1,386 @@
+{
+    "locale": {
+        "message": "de"
+    },
+    "dir": {
+        "message": "ltr"
+    },
+    "ext_name": {
+        "message": "Coddy Focus: Website-Blocker und Fokus-Timer"
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus"
+    },
+    "ext_description": {
+        "message": "Blockiere ablenkende Seiten, setze Tageslimits, bleib fokussiert. Kostenlos, Open Source, Daten bleiben im Browser. Lerne auf Coddy."
+    },
+    "settings": {
+        "message": "Einstellungen"
+    },
+    "cancel": {
+        "message": "Abbrechen"
+    },
+    "learn_on_coddy": {
+        "message": "Auf Coddy lernen"
+    },
+    "incognito_off": {
+        "message": "In Inkognito-Fenstern ist das Blockieren ausgeschaltet. Öffne zum Einschalten die Seite der Erweiterung und erlaube dort den Inkognito-Zugriff."
+    },
+    "incognito_fix": {
+        "message": "Seite der Erweiterung öffnen"
+    },
+    "popup_lockdown_title": {
+        "message": "Die Komplettsperre ist an"
+    },
+    "popup_lockdown_until": {
+        "message": "Deine Websites sind bis {time} gesperrt."
+    },
+    "popup_focus_title": {
+        "message": "Fokus-Session"
+    },
+    "popup_focus_body": {
+        "message": "Deine Websites sind gesperrt, bis der Timer abläuft."
+    },
+    "popup_focus_stop": {
+        "message": "Session beenden"
+    },
+    "popup_break_title": {
+        "message": "Pause"
+    },
+    "popup_break_body": {
+        "message": "Mach eine kurze Pause. Deine üblichen Limits gelten."
+    },
+    "popup_break_end": {
+        "message": "Pause beenden"
+    },
+    "popup_focus_start": {
+        "message": "{duration} Fokus starten"
+    },
+    "popup_empty_title": {
+        "message": "Füge die Websites hinzu, die dich ablenken"
+    },
+    "popup_empty_body": {
+        "message": "Wähle dann, wie viel Zeit du täglich darauf verbringen darfst."
+    },
+    "popup_empty_action": {
+        "message": "Websites hinzufügen"
+    },
+    "popup_off_title": {
+        "message": "Deine Limits sind gerade aus"
+    },
+    "popup_off_body": {
+        "message": "Sie gelten wieder ab {time}."
+    },
+    "popup_blocked_title": {
+        "message": "Deine Websites sind gesperrt"
+    },
+    "popup_blocked_body": {
+        "message": "Alle Websites auf deiner Liste sind immer gesperrt."
+    },
+    "popup_used_up_title": {
+        "message": "Die Zeit für heute ist aufgebraucht"
+    },
+    "popup_used_up_body": {
+        "message": "Deine Websites sind ab {time} wieder offen."
+    },
+    "popup_left_title": {
+        "message": "Heute noch übrig"
+    },
+    "popup_used_of": {
+        "message": "{used} von {total} verbraucht"
+    },
+    "popup_site_not_listed": {
+        "message": "{site} ist nicht auf deiner Liste."
+    },
+    "popup_site_listed_limited": {
+        "message": "{site} zählt zu deiner täglichen Zeit."
+    },
+    "popup_site_listed_blocked": {
+        "message": "{site} ist während deiner Limits gesperrt."
+    },
+    "popup_site_add": {
+        "message": "Diese Website hinzufügen"
+    },
+    "popup_site_manage": {
+        "message": "In den Einstellungen ändern"
+    },
+    "options_title": {
+        "message": "Einstellungen von Coddy Focus"
+    },
+    "options_tagline": {
+        "message": "Weniger scrollen, mehr lernen."
+    },
+    "sites_title": {
+        "message": "Deine Websites"
+    },
+    "sites_add_label": {
+        "message": "Website, die du hinzufügen willst"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com oder reddit.com/r/all"
+    },
+    "sites_mode_label": {
+        "message": "Wie diese Website begrenzt wird"
+    },
+    "mode_limited": {
+        "message": "Tägliches Zeitlimit"
+    },
+    "mode_blocked": {
+        "message": "Immer gesperrt"
+    },
+    "sites_add": {
+        "message": "Hinzufügen"
+    },
+    "sites_empty": {
+        "message": "Noch keine Websites. Füge die hinzu, auf denen du Zeit verlierst."
+    },
+    "sites_invalid": {
+        "message": "Das sieht nicht nach einer Website-Adresse aus."
+    },
+    "sites_duplicate": {
+        "message": "Diese Website ist schon auf deiner Liste."
+    },
+    "sites_remove_label": {
+        "message": "{site} entfernen"
+    },
+    "access_basic": {
+        "message": "Coddy Focus hat keinen Zugriff auf diese Website und kann deine Zeit dort deshalb nicht zählen. Ist sie gesperrt, siehst du die einfache Sperrseite des Browsers statt der von Coddy."
+    },
+    "access_give": {
+        "message": "Zugriff erlauben"
+    },
+    "access_give_all": {
+        "message": "Zugriff für alle erlauben"
+    },
+    "access_missing": {
+        "message": "Einige Websites haben keinen Zugriff. Die Zeit dort wird nicht gezählt, und gesperrt zeigen sie die einfache Sperrseite des Browsers."
+    },
+    "allowance_title": {
+        "message": "Tägliche Zeit"
+    },
+    "allowance_body": {
+        "message": "Alle Websites mit täglichem Zeitlimit teilen sich diese Zeit. Stell 0 ein, um sie den ganzen Tag zu sperren."
+    },
+    "minutes_per_day": {
+        "message": "Minuten pro Tag"
+    },
+    "schedule_title": {
+        "message": "Wann die Limits gelten"
+    },
+    "schedule_enable": {
+        "message": "Nur zu bestimmten Zeiten"
+    },
+    "schedule_days": {
+        "message": "Tage"
+    },
+    "schedule_from": {
+        "message": "Von"
+    },
+    "schedule_to": {
+        "message": "Bis"
+    },
+    "focus_title": {
+        "message": "Fokus-Timer"
+    },
+    "focus_body": {
+        "message": "Alle Websites auf deiner Liste sind gesperrt, während du arbeitest. Danach bekommst du eine Pause."
+    },
+    "focus_work": {
+        "message": "Arbeitsminuten"
+    },
+    "focus_break": {
+        "message": "Pausenminuten"
+    },
+    "lockdown_title": {
+        "message": "Komplettsperre"
+    },
+    "lockdown_body": {
+        "message": "Sperrt alle Websites auf deiner Liste, so lange du willst. Einmal gestartet, kannst du sie nicht mehr stoppen."
+    },
+    "lockdown_length": {
+        "message": "Dauer der Sperre"
+    },
+    "lockdown_start": {
+        "message": "Komplettsperre starten"
+    },
+    "lockdown_extend": {
+        "message": "Verlängern"
+    },
+    "lockdown_confirm": {
+        "message": "Ja, für {duration} sperren"
+    },
+    "lockdown_active": {
+        "message": "Die Komplettsperre ist bis {time} an."
+    },
+    "hide_title": {
+        "message": "Ablenkungen ausblenden"
+    },
+    "hide_body": {
+        "message": "Lass eine Website offen, aber blende die Teile aus, die dich reinziehen."
+    },
+    "hide_yt_shorts": {
+        "message": "YouTube Shorts ausblenden"
+    },
+    "hide_yt_comments": {
+        "message": "YouTube-Kommentare ausblenden"
+    },
+    "hide_yt_recommendations": {
+        "message": "YouTube-Empfehlungen ausblenden"
+    },
+    "hide_ig_reels": {
+        "message": "Instagram Reels ausblenden"
+    },
+    "strict_title": {
+        "message": "Strenger Modus"
+    },
+    "strict_enable": {
+        "message": "Lockerere Limits erst ab morgen gelten lassen"
+    },
+    "strict_body": {
+        "message": "Strengere Limits gelten sofort. Eine Website entfernen, deine Zeit erhöhen oder den strengen Modus ausschalten wirkt erst um Mitternacht."
+    },
+    "pending_strict": {
+        "message": "Der strenge Modus ist an, deshalb gelten Änderungen, die deine Limits lockern, erst ab Mitternacht."
+    },
+    "pending_lockdown": {
+        "message": "Eine Komplettsperre läuft, deshalb gelten Änderungen, die deine Limits lockern, erst ab {time}."
+    },
+    "pending_cancel": {
+        "message": "Meine aktuellen Limits behalten"
+    },
+    "backup_title": {
+        "message": "Sicherung"
+    },
+    "backup_body": {
+        "message": "Speichere deine Einstellungen in einer Datei oder lade sie aus einer."
+    },
+    "backup_export": {
+        "message": "In Datei speichern"
+    },
+    "backup_import": {
+        "message": "Aus Datei laden"
+    },
+    "backup_imported": {
+        "message": "Einstellungen geladen."
+    },
+    "backup_invalid": {
+        "message": "Diese Datei ist keine Sicherung von Coddy Focus."
+    },
+    "about_title": {
+        "message": "Kostenlos und Open Source"
+    },
+    "about_body": {
+        "message": "Coddy Focus stellt keine Netzwerkanfragen und speichert alles in deinem Browser. Jeder kann den Code lesen."
+    },
+    "about_source": {
+        "message": "Code auf GitHub ansehen"
+    },
+    "blocked_tab_title": {
+        "message": "Gesperrt"
+    },
+    "blocked_title": {
+        "message": "{site} ist gesperrt"
+    },
+    "blocked_reason_lockdown": {
+        "message": "Die Komplettsperre ist bis {time} an."
+    },
+    "blocked_reason_focus": {
+        "message": "Du bist in einer Fokus-Session. Noch {time}."
+    },
+    "blocked_reason_blocked": {
+        "message": "Während deiner Limits gesperrt, bis {time}."
+    },
+    "blocked_reason_limit": {
+        "message": "Du hast die Zeit für heute aufgebraucht. Ab {time} ist die Website wieder offen."
+    },
+    "blocked_reason_always": {
+        "message": "Diese Website ist immer gesperrt."
+    },
+    "blocked_learn": {
+        "message": "Mach stattdessen eine Lektion"
+    },
+    "blocked_back": {
+        "message": "Zurück"
+    },
+    "blocked_pitch": {
+        "message": "Eine kurze Programmierlektion auf Coddy schlägt zehn Minuten Scrollen."
+    },
+    "blocked_open_title": {
+        "message": "{site} ist wieder offen"
+    },
+    "blocked_open_body": {
+        "message": "Die Sperre ist vorbei."
+    },
+    "blocked_open_site": {
+        "message": "Website öffnen"
+    },
+    "popup_used_up_midnight": {
+        "message": "Deine Websites sind ab Mitternacht wieder offen."
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "Du hast die Zeit für heute aufgebraucht. Ab Mitternacht ist die Website wieder offen."
+    },
+    "tab_today": {
+        "message": "Heute"
+    },
+    "today_no_time": {
+        "message": "Noch keine Zeit gezählt. Gezählt werden nur Websites auf deiner Liste, und nur auf diesem Gerät."
+    },
+    "nav_label": {
+        "message": "Bereiche der Einstellungen"
+    },
+    "tab_sites": {
+        "message": "Websites"
+    },
+    "tab_limits": {
+        "message": "Limits"
+    },
+    "tab_focus": {
+        "message": "Fokus"
+    },
+    "tab_hide": {
+        "message": "Ausblenden"
+    },
+    "tab_more": {
+        "message": "Mehr"
+    },
+    "today_blocked_now": {
+        "message": "Gerade gesperrte Websites"
+    },
+    "today_week": {
+        "message": "Deine Zeit diese Woche"
+    },
+    "today_your_time": {
+        "message": "Deine Zeit heute"
+    },
+    "today_add_other": {
+        "message": "Andere Website hinzufügen"
+    },
+    "sites_suggestions": {
+        "message": "Schnell hinzufügen"
+    },
+    "toast_saved": {
+        "message": "Gespeichert"
+    },
+    "toast_saved_later": {
+        "message": "Gespeichert. Änderungen, die deine Limits lockern, gelten erst später."
+    },
+    "focus_then_break": {
+        "message": "Danach {duration} Pause."
+    },
+    "sites_access_denied": {
+        "message": "{site} wurde nicht hinzugefügt. Coddy Focus braucht Zugriff darauf, um deine Zeit zu zählen und die eigene Sperrseite zu zeigen."
+    },
+    "focus_hint": {
+        "message": "Sperrt jede Website auf deiner Liste, bis der Timer abläuft, danach folgt eine kurze Pause. Du kannst jederzeit aufhören."
+    },
+    "lockdown_hint": {
+        "message": "Sperrt jede Website auf deiner Liste so lange, wie du wählst. Sie lässt sich nicht vorzeitig beenden."
+    },
+    "mode_limited_hint": {
+        "message": "Diese Websites teilen sich deine tägliche Zeit. Ist sie aufgebraucht, sind sie bis Mitternacht gesperrt."
+    },
+    "mode_blocked_hint": {
+        "message": "Den ganzen Tag gesperrt oder nur zu den Zeiten, die du unter Limits festlegst."
+    }
+}

@@ -1,0 +1,386 @@
+{
+    "locale": {
+        "message": "tr"
+    },
+    "dir": {
+        "message": "ltr"
+    },
+    "ext_name": {
+        "message": "Coddy Focus: site engelleyici ve odak zamanlayıcısı"
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus"
+    },
+    "ext_description": {
+        "message": "Dikkat dağıtan siteleri engelle, günlük sınır koy, odaklan. Ücretsiz, açık kaynak, veriler tarayıcında kalır. Coddy'de kod öğren."
+    },
+    "settings": {
+        "message": "Ayarlar"
+    },
+    "cancel": {
+        "message": "İptal"
+    },
+    "learn_on_coddy": {
+        "message": "Coddy'de öğren"
+    },
+    "incognito_off": {
+        "message": "Gizli pencerelerde engelleme kapalı. Açmak için uzantının sayfasını aç ve gizli modda çalışmasına izin ver."
+    },
+    "incognito_fix": {
+        "message": "Uzantının sayfasını aç"
+    },
+    "popup_lockdown_title": {
+        "message": "Kilit modu açık"
+    },
+    "popup_lockdown_until": {
+        "message": "Sitelerin {time} saatine kadar engelli."
+    },
+    "popup_focus_title": {
+        "message": "Odak seansı"
+    },
+    "popup_focus_body": {
+        "message": "Zamanlayıcı bitene kadar sitelerin engelli."
+    },
+    "popup_focus_stop": {
+        "message": "Seansı durdur"
+    },
+    "popup_break_title": {
+        "message": "Mola"
+    },
+    "popup_break_body": {
+        "message": "Kısa bir mola ver. Her zamanki sınırların geçerli."
+    },
+    "popup_break_end": {
+        "message": "Molayı bitir"
+    },
+    "popup_focus_start": {
+        "message": "{duration} odaklan"
+    },
+    "popup_empty_title": {
+        "message": "Dikkatini dağıtan siteleri ekle"
+    },
+    "popup_empty_body": {
+        "message": "Sonra her gün bu sitelerde ne kadar zaman geçirebileceğini seç."
+    },
+    "popup_empty_action": {
+        "message": "Site ekle"
+    },
+    "popup_off_title": {
+        "message": "Sınırların şu anda kapalı"
+    },
+    "popup_off_body": {
+        "message": "{time} itibarıyla yeniden başlar."
+    },
+    "popup_blocked_title": {
+        "message": "Sitelerin engelli"
+    },
+    "popup_blocked_body": {
+        "message": "Listendeki her site her zaman engelli."
+    },
+    "popup_used_up_title": {
+        "message": "Bugünkü süren doldu"
+    },
+    "popup_used_up_body": {
+        "message": "Sitelerin {time} itibarıyla yeniden açılır."
+    },
+    "popup_used_up_midnight": {
+        "message": "Sitelerin gece yarısı yeniden açılır."
+    },
+    "popup_left_title": {
+        "message": "Bugün kalan süre"
+    },
+    "popup_used_of": {
+        "message": "{used} kullanıldı, toplam {total}"
+    },
+    "popup_site_not_listed": {
+        "message": "{site} listende yok."
+    },
+    "popup_site_listed_limited": {
+        "message": "{site} günlük sürenden düşer."
+    },
+    "popup_site_listed_blocked": {
+        "message": "{site}, sınırların geçerliyken engellenir."
+    },
+    "popup_site_add": {
+        "message": "Bu siteyi ekle"
+    },
+    "popup_site_manage": {
+        "message": "Ayarlardan değiştir"
+    },
+    "options_title": {
+        "message": "Coddy Focus ayarları"
+    },
+    "options_tagline": {
+        "message": "Daha az kaydırma, daha çok öğrenme."
+    },
+    "sites_title": {
+        "message": "Sitelerin"
+    },
+    "sites_add_label": {
+        "message": "Eklenecek site"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com veya reddit.com/r/all"
+    },
+    "sites_mode_label": {
+        "message": "Bu site nasıl sınırlansın"
+    },
+    "mode_limited": {
+        "message": "Günlük süre sınırı"
+    },
+    "mode_blocked": {
+        "message": "Her zaman engelli"
+    },
+    "sites_add": {
+        "message": "Ekle"
+    },
+    "sites_empty": {
+        "message": "Henüz site yok. Zaman kaybettiğin siteleri ekle."
+    },
+    "sites_invalid": {
+        "message": "Bu bir site adresine benzemiyor."
+    },
+    "sites_duplicate": {
+        "message": "Bu site zaten listende."
+    },
+    "sites_remove_label": {
+        "message": "{site} sitesini kaldır"
+    },
+    "access_basic": {
+        "message": "Coddy Focus'un bu siteye erişimi yok, bu yüzden buradaki süreni sayamaz. Site engellendiğinde Coddy'nin sayfası yerine tarayıcının sade engelleme sayfasını görürsün."
+    },
+    "access_give": {
+        "message": "Erişim ver"
+    },
+    "access_give_all": {
+        "message": "Tümüne erişim ver"
+    },
+    "access_missing": {
+        "message": "Bazı sitelere erişim yok. Bu sitelerdeki süre sayılmaz ve engellendiklerinde tarayıcının sade engelleme sayfası gösterilir."
+    },
+    "allowance_title": {
+        "message": "Günlük süre"
+    },
+    "allowance_body": {
+        "message": "Günlük süre sınırı olan tüm siteler bu süreyi paylaşır. Bütün gün engellemek için 0 yaz."
+    },
+    "minutes_per_day": {
+        "message": "dakika/gün"
+    },
+    "schedule_title": {
+        "message": "Sınırlar ne zaman geçerli"
+    },
+    "schedule_enable": {
+        "message": "Sadece belirli saatlerde"
+    },
+    "schedule_days": {
+        "message": "Günler"
+    },
+    "schedule_from": {
+        "message": "Başlangıç"
+    },
+    "schedule_to": {
+        "message": "Bitiş"
+    },
+    "focus_title": {
+        "message": "Odak zamanlayıcısı"
+    },
+    "focus_body": {
+        "message": "Sen çalışırken listendeki her site engellenir, sonra mola verirsin."
+    },
+    "focus_work": {
+        "message": "Çalışma dakikası"
+    },
+    "focus_break": {
+        "message": "Mola dakikası"
+    },
+    "lockdown_title": {
+        "message": "Kilit modu"
+    },
+    "lockdown_body": {
+        "message": "Listendeki her siteyi seçtiğin süre boyunca engeller. Başladıktan sonra durduramazsın."
+    },
+    "lockdown_length": {
+        "message": "Kilit süresi"
+    },
+    "lockdown_start": {
+        "message": "Kilit modunu başlat"
+    },
+    "lockdown_extend": {
+        "message": "Süreyi uzat"
+    },
+    "lockdown_confirm": {
+        "message": "Evet, {duration} kilitle"
+    },
+    "lockdown_active": {
+        "message": "Kilit modu {time} saatine kadar açık."
+    },
+    "hide_title": {
+        "message": "Dikkat dağıtıcıları gizle"
+    },
+    "hide_body": {
+        "message": "Siteyi açık tut ama seni içine çeken kısımları gizle."
+    },
+    "hide_yt_shorts": {
+        "message": "YouTube Shorts'u gizle"
+    },
+    "hide_yt_comments": {
+        "message": "YouTube yorumlarını gizle"
+    },
+    "hide_yt_recommendations": {
+        "message": "YouTube önerilerini gizle"
+    },
+    "hide_ig_reels": {
+        "message": "Instagram Reels'i gizle"
+    },
+    "strict_title": {
+        "message": "Katı mod"
+    },
+    "strict_enable": {
+        "message": "Gevşetilen sınırlar yarına kadar beklesin"
+    },
+    "strict_body": {
+        "message": "Daha sıkı sınırlar hemen geçerli olur. Site kaldırmak, süreni artırmak veya katı modu kapatmak gece yarısı geçerli olur."
+    },
+    "pending_strict": {
+        "message": "Katı mod açık, bu yüzden sınırlarını gevşeten değişiklikler gece yarısı geçerli olur."
+    },
+    "pending_lockdown": {
+        "message": "Kilit modu açık, bu yüzden sınırlarını gevşeten değişiklikler {time} itibarıyla geçerli olur."
+    },
+    "pending_cancel": {
+        "message": "Mevcut sınırlarımı koru"
+    },
+    "backup_title": {
+        "message": "Yedek"
+    },
+    "backup_body": {
+        "message": "Ayarlarını bir dosyaya kaydet veya bir dosyadan yükle."
+    },
+    "backup_export": {
+        "message": "Dosyaya kaydet"
+    },
+    "backup_import": {
+        "message": "Dosyadan yükle"
+    },
+    "backup_imported": {
+        "message": "Ayarlar yüklendi."
+    },
+    "backup_invalid": {
+        "message": "Bu dosya bir Coddy Focus yedeği değil."
+    },
+    "about_title": {
+        "message": "Ücretsiz ve açık kaynak"
+    },
+    "about_body": {
+        "message": "Coddy Focus hiçbir ağ isteği yapmaz ve her şeyi tarayıcında tutar. Kodu herkes okuyabilir."
+    },
+    "about_source": {
+        "message": "Kodu GitHub'da gör"
+    },
+    "blocked_tab_title": {
+        "message": "Engellendi"
+    },
+    "blocked_title": {
+        "message": "{site} engellendi"
+    },
+    "blocked_reason_lockdown": {
+        "message": "Kilit modu {time} saatine kadar açık."
+    },
+    "blocked_reason_focus": {
+        "message": "Odak seansındasın. {time} kaldı."
+    },
+    "blocked_reason_blocked": {
+        "message": "Sınırların nedeniyle {time} saatine kadar engelli."
+    },
+    "blocked_reason_limit": {
+        "message": "Bugünkü süreni kullandın. Site {time} itibarıyla yeniden açılır."
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "Bugünkü süreni kullandın. Site gece yarısı yeniden açılır."
+    },
+    "blocked_reason_always": {
+        "message": "Bu site her zaman engelli."
+    },
+    "blocked_learn": {
+        "message": "Bunun yerine bir ders yap"
+    },
+    "blocked_back": {
+        "message": "Geri dön"
+    },
+    "blocked_pitch": {
+        "message": "Coddy'de kısa bir kodlama dersi, on dakika kaydırmaktan iyidir."
+    },
+    "blocked_open_title": {
+        "message": "{site} yeniden açık"
+    },
+    "blocked_open_body": {
+        "message": "Engel sona erdi."
+    },
+    "blocked_open_site": {
+        "message": "Siteyi aç"
+    },
+    "tab_today": {
+        "message": "Bugün"
+    },
+    "today_no_time": {
+        "message": "Henüz süre sayılmadı. Yalnızca listendeki siteler ve yalnızca bu cihazda sayılır."
+    },
+    "nav_label": {
+        "message": "Ayar bölümleri"
+    },
+    "tab_sites": {
+        "message": "Siteler"
+    },
+    "tab_limits": {
+        "message": "Sınırlar"
+    },
+    "tab_focus": {
+        "message": "Odak"
+    },
+    "tab_hide": {
+        "message": "Gizle"
+    },
+    "tab_more": {
+        "message": "Daha fazla"
+    },
+    "today_blocked_now": {
+        "message": "Şu an engelli siteler"
+    },
+    "today_week": {
+        "message": "Bu haftaki süren"
+    },
+    "today_your_time": {
+        "message": "Bugünkü süren"
+    },
+    "today_add_other": {
+        "message": "Başka bir site ekle"
+    },
+    "sites_suggestions": {
+        "message": "Hızlı ekle"
+    },
+    "toast_saved": {
+        "message": "Kaydedildi"
+    },
+    "toast_saved_later": {
+        "message": "Kaydedildi. Sınırlarını gevşeten değişiklikler daha sonra geçerli olur."
+    },
+    "focus_then_break": {
+        "message": "Ardından {duration} mola."
+    },
+    "sites_access_denied": {
+        "message": "{site} eklenmedi. Coddy Focus'un süreni sayabilmesi ve kendi engelleme sayfasını gösterebilmesi için bu siteye erişmesi gerekiyor."
+    },
+    "focus_hint": {
+        "message": "Zamanlayıcı bitene kadar listendeki tüm siteleri engeller, sonra kısa bir mola verir. İstediğin zaman durdurabilirsin."
+    },
+    "lockdown_hint": {
+        "message": "Listendeki tüm siteleri seçtiğin süre boyunca engeller. Erken durdurulamaz."
+    },
+    "mode_limited_hint": {
+        "message": "Bu siteler günlük süreni paylaşır. Süre bitince gece yarısına kadar engellenir."
+    },
+    "mode_blocked_hint": {
+        "message": "Bütün gün ya da yalnızca Sınırlar'da belirlediğin saatlerde engellenir."
+    }
+}

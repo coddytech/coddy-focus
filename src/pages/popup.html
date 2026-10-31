@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title data-i18n="ext_short_name"></title>
+        <link rel="stylesheet" href="common.css" />
+        <link rel="stylesheet" href="popup.css" />
+        <script type="module" src="popup.js"></script>
+    </head>
+    <body>
+        <main class="popup">
+            <header class="popup-header">
+                <img src="../icons/icon-48.png" alt="" width="28" height="28" />
+                <h1 data-i18n="ext_short_name"></h1>
+                <button id="open-settings" class="btn ghost icon md" type="button" data-i18n-label="settings" data-icon="more"></button>
+            </header>
+
+            <section class="card status-card">
+                <div id="status" class="status" aria-live="polite"></div>
+            </section>
+
+            <section id="actions" class="card actions" hidden>
+                <div class="action">
+                    <button id="focus" class="btn3d block" type="button" aria-describedby="focus-hint"></button>
+                    <p id="focus-hint" class="hint" data-i18n="focus_hint"></p>
+                </div>
+                <div class="action">
+                    <button id="lockdown" class="btn secondary md block" type="button" data-icon="lock" aria-describedby="lockdown-hint">
+                        <span data-i18n="lockdown_title"></span>
+                    </button>
+                    <p id="lockdown-hint" class="hint" data-i18n="lockdown_hint"></p>
+                </div>
+            </section>
+
+            <section id="site" class="card site-card" hidden></section>
+
+            <div id="incognito" class="notice" hidden>
+                <p data-i18n="incognito_off"></p>
+                <button id="incognito-fix" class="btn link" type="button" data-i18n="incognito_fix"></button>
+            </div>
+
+            <footer class="popup-footer">
+                <a id="learn" class="btn link" target="_blank" rel="noopener" data-i18n="learn_on_coddy"></a>
+            </footer>
+        </main>
+    </body>
+</html>

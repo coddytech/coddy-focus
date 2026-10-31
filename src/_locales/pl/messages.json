@@ -1,0 +1,386 @@
+{
+    "locale": {
+        "message": "pl"
+    },
+    "dir": {
+        "message": "ltr"
+    },
+    "ext_name": {
+        "message": "Coddy Focus: blokowanie stron i timer skupienia"
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus"
+    },
+    "ext_description": {
+        "message": "Blokuj rozpraszające strony, ustaw dzienne limity i skup się. Darmowe, open source, dane zostają w przeglądarce. Ucz się na Coddy."
+    },
+    "settings": {
+        "message": "Ustawienia"
+    },
+    "cancel": {
+        "message": "Anuluj"
+    },
+    "learn_on_coddy": {
+        "message": "Ucz się na Coddy"
+    },
+    "incognito_off": {
+        "message": "W oknach incognito blokowanie jest wyłączone. Aby je włączyć, otwórz stronę rozszerzenia i zezwól na działanie w trybie incognito."
+    },
+    "incognito_fix": {
+        "message": "Otwórz stronę rozszerzenia"
+    },
+    "popup_lockdown_title": {
+        "message": "Pełna blokada jest włączona"
+    },
+    "popup_lockdown_until": {
+        "message": "Twoje strony są zablokowane do {time}."
+    },
+    "popup_focus_title": {
+        "message": "Sesja skupienia"
+    },
+    "popup_focus_body": {
+        "message": "Twoje strony są zablokowane, dopóki nie skończy się timer."
+    },
+    "popup_focus_stop": {
+        "message": "Zatrzymaj sesję"
+    },
+    "popup_break_title": {
+        "message": "Przerwa"
+    },
+    "popup_break_body": {
+        "message": "Zrób sobie krótką przerwę. Obowiązują twoje zwykłe limity."
+    },
+    "popup_break_end": {
+        "message": "Zakończ przerwę"
+    },
+    "popup_focus_start": {
+        "message": "Zacznij skupienie na {duration}"
+    },
+    "popup_empty_title": {
+        "message": "Dodaj strony, które cię rozpraszają"
+    },
+    "popup_empty_body": {
+        "message": "Potem wybierz, ile czasu dziennie możesz na nich spędzać."
+    },
+    "popup_empty_action": {
+        "message": "Dodaj strony"
+    },
+    "popup_off_title": {
+        "message": "Twoje limity są teraz wyłączone"
+    },
+    "popup_off_body": {
+        "message": "Znów zaczną działać o {time}."
+    },
+    "popup_blocked_title": {
+        "message": "Twoje strony są zablokowane"
+    },
+    "popup_blocked_body": {
+        "message": "Każda strona z twojej listy jest zawsze zablokowana."
+    },
+    "popup_used_up_title": {
+        "message": "Dzisiejszy czas się skończył"
+    },
+    "popup_used_up_body": {
+        "message": "Twoje strony otworzą się znowu o {time}."
+    },
+    "popup_used_up_midnight": {
+        "message": "Twoje strony otworzą się znowu o północy."
+    },
+    "popup_left_title": {
+        "message": "Pozostało na dziś"
+    },
+    "popup_used_of": {
+        "message": "Wykorzystano {used} z {total}"
+    },
+    "popup_site_not_listed": {
+        "message": "Strony {site} nie ma na twojej liście."
+    },
+    "popup_site_listed_limited": {
+        "message": "Czas na {site} wlicza się do dziennego limitu."
+    },
+    "popup_site_listed_blocked": {
+        "message": "Strona {site} jest blokowana, gdy obowiązują twoje limity."
+    },
+    "popup_site_add": {
+        "message": "Dodaj tę stronę"
+    },
+    "popup_site_manage": {
+        "message": "Zmień w ustawieniach"
+    },
+    "options_title": {
+        "message": "Ustawienia Coddy Focus"
+    },
+    "options_tagline": {
+        "message": "Mniej scrollowania, więcej nauki."
+    },
+    "sites_title": {
+        "message": "Twoje strony"
+    },
+    "sites_add_label": {
+        "message": "Strona do dodania"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com lub reddit.com/r/all"
+    },
+    "sites_mode_label": {
+        "message": "Jak ograniczyć tę stronę"
+    },
+    "mode_limited": {
+        "message": "Dzienny limit czasu"
+    },
+    "mode_blocked": {
+        "message": "Zawsze zablokowana"
+    },
+    "sites_add": {
+        "message": "Dodaj"
+    },
+    "sites_empty": {
+        "message": "Nie masz jeszcze żadnych stron. Dodaj te, na których tracisz czas."
+    },
+    "sites_invalid": {
+        "message": "To nie wygląda na adres strony."
+    },
+    "sites_duplicate": {
+        "message": "Ta strona jest już na twojej liście."
+    },
+    "sites_remove_label": {
+        "message": "Usuń {site}"
+    },
+    "access_basic": {
+        "message": "Coddy Focus nie ma dostępu do tej strony, więc nie może liczyć twojego czasu na niej. Gdy jest zablokowana, widzisz zwykłą stronę blokady przeglądarki zamiast strony Coddy."
+    },
+    "access_give": {
+        "message": "Daj dostęp"
+    },
+    "access_give_all": {
+        "message": "Daj dostęp do wszystkich"
+    },
+    "access_missing": {
+        "message": "Do niektórych stron nie ma dostępu. Czas na nich nie jest liczony, a gdy są zablokowane, pokazują zwykłą stronę blokady przeglądarki."
+    },
+    "allowance_title": {
+        "message": "Dzienny czas"
+    },
+    "allowance_body": {
+        "message": "Wszystkie strony z dziennym limitem dzielą ten czas. Ustaw 0, aby blokować je przez cały dzień."
+    },
+    "minutes_per_day": {
+        "message": "minut dziennie"
+    },
+    "schedule_title": {
+        "message": "Kiedy obowiązują limity"
+    },
+    "schedule_enable": {
+        "message": "Tylko w określonych godzinach"
+    },
+    "schedule_days": {
+        "message": "Dni"
+    },
+    "schedule_from": {
+        "message": "Od"
+    },
+    "schedule_to": {
+        "message": "Do"
+    },
+    "focus_title": {
+        "message": "Timer skupienia"
+    },
+    "focus_body": {
+        "message": "Podczas pracy każda strona z twojej listy jest zablokowana, a potem masz przerwę."
+    },
+    "focus_work": {
+        "message": "Minuty pracy"
+    },
+    "focus_break": {
+        "message": "Minuty przerwy"
+    },
+    "lockdown_title": {
+        "message": "Pełna blokada"
+    },
+    "lockdown_body": {
+        "message": "Blokuje każdą stronę z twojej listy na tak długo, jak wybierzesz. Po rozpoczęciu nie da się jej zatrzymać."
+    },
+    "lockdown_length": {
+        "message": "Czas trwania blokady"
+    },
+    "lockdown_start": {
+        "message": "Zacznij pełną blokadę"
+    },
+    "lockdown_extend": {
+        "message": "Wydłuż"
+    },
+    "lockdown_confirm": {
+        "message": "Tak, zablokuj na {duration}"
+    },
+    "lockdown_active": {
+        "message": "Pełna blokada trwa do {time}."
+    },
+    "hide_title": {
+        "message": "Ukryj rozpraszacze"
+    },
+    "hide_body": {
+        "message": "Zostaw stronę otwartą, ale ukryj to, co cię wciąga."
+    },
+    "hide_yt_shorts": {
+        "message": "Ukryj YouTube Shorts"
+    },
+    "hide_yt_comments": {
+        "message": "Ukryj komentarze na YouTube"
+    },
+    "hide_yt_recommendations": {
+        "message": "Ukryj polecane filmy na YouTube"
+    },
+    "hide_ig_reels": {
+        "message": "Ukryj Reels na Instagramie"
+    },
+    "strict_title": {
+        "message": "Tryb ścisły"
+    },
+    "strict_enable": {
+        "message": "Łagodniejsze limity dopiero od jutra"
+    },
+    "strict_body": {
+        "message": "Surowsze limity działają od razu. Usunięcie strony, wydłużenie czasu lub wyłączenie trybu ścisłego zaczyna działać o północy."
+    },
+    "pending_strict": {
+        "message": "Tryb ścisły jest włączony, więc zmiany łagodzące twoje limity zaczną działać o północy."
+    },
+    "pending_lockdown": {
+        "message": "Trwa pełna blokada, więc zmiany łagodzące twoje limity zaczną działać o {time}."
+    },
+    "pending_cancel": {
+        "message": "Zachowaj obecne limity"
+    },
+    "backup_title": {
+        "message": "Kopia zapasowa"
+    },
+    "backup_body": {
+        "message": "Zapisz ustawienia w pliku albo wczytaj je z pliku."
+    },
+    "backup_export": {
+        "message": "Zapisz do pliku"
+    },
+    "backup_import": {
+        "message": "Wczytaj z pliku"
+    },
+    "backup_imported": {
+        "message": "Ustawienia wczytane."
+    },
+    "backup_invalid": {
+        "message": "Ten plik nie jest kopią zapasową Coddy Focus."
+    },
+    "about_title": {
+        "message": "Darmowe i open source"
+    },
+    "about_body": {
+        "message": "Coddy Focus nie wysyła żadnych zapytań do sieci i przechowuje wszystko w twojej przeglądarce. Każdy może przeczytać kod."
+    },
+    "about_source": {
+        "message": "Zobacz kod na GitHubie"
+    },
+    "blocked_tab_title": {
+        "message": "Zablokowano"
+    },
+    "blocked_title": {
+        "message": "Strona {site} jest zablokowana"
+    },
+    "blocked_reason_lockdown": {
+        "message": "Pełna blokada trwa do {time}."
+    },
+    "blocked_reason_focus": {
+        "message": "Trwa sesja skupienia. Zostało {time}."
+    },
+    "blocked_reason_blocked": {
+        "message": "Zablokowana w czasie twoich limitów, do {time}."
+    },
+    "blocked_reason_limit": {
+        "message": "Dzisiejszy czas się skończył. Strona otworzy się znowu o {time}."
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "Dzisiejszy czas się skończył. Strona otworzy się znowu o północy."
+    },
+    "blocked_reason_always": {
+        "message": "Ta strona jest zawsze zablokowana."
+    },
+    "blocked_learn": {
+        "message": "Zrób lepiej lekcję"
+    },
+    "blocked_back": {
+        "message": "Wróć"
+    },
+    "blocked_pitch": {
+        "message": "Jedna krótka lekcja programowania na Coddy jest lepsza niż dziesięć minut scrollowania."
+    },
+    "blocked_open_title": {
+        "message": "Strona {site} jest znowu otwarta"
+    },
+    "blocked_open_body": {
+        "message": "Blokada się skończyła."
+    },
+    "blocked_open_site": {
+        "message": "Otwórz stronę"
+    },
+    "tab_today": {
+        "message": "Dziś"
+    },
+    "today_no_time": {
+        "message": "Nie zliczono jeszcze czasu. Liczą się tylko strony z twojej listy i tylko na tym urządzeniu."
+    },
+    "nav_label": {
+        "message": "Sekcje ustawień"
+    },
+    "tab_sites": {
+        "message": "Strony"
+    },
+    "tab_limits": {
+        "message": "Limity"
+    },
+    "tab_focus": {
+        "message": "Skupienie"
+    },
+    "tab_hide": {
+        "message": "Ukryj"
+    },
+    "tab_more": {
+        "message": "Więcej"
+    },
+    "today_blocked_now": {
+        "message": "Strony zablokowane teraz"
+    },
+    "today_week": {
+        "message": "Twój czas w tym tygodniu"
+    },
+    "today_your_time": {
+        "message": "Twój czas dziś"
+    },
+    "today_add_other": {
+        "message": "Dodaj inną stronę"
+    },
+    "sites_suggestions": {
+        "message": "Szybkie dodawanie"
+    },
+    "toast_saved": {
+        "message": "Zapisano"
+    },
+    "toast_saved_later": {
+        "message": "Zapisano. Zmiany łagodzące twoje limity zaczną działać później."
+    },
+    "focus_then_break": {
+        "message": "Potem przerwa: {duration}."
+    },
+    "sites_access_denied": {
+        "message": "Strona {site} nie została dodana. Coddy Focus potrzebuje do niej dostępu, aby liczyć twój czas i pokazywać swoją stronę blokady."
+    },
+    "focus_hint": {
+        "message": "Blokuje wszystkie strony z twojej listy, aż skończy się timer, a potem daje krótką przerwę. Możesz go zatrzymać w każdej chwili."
+    },
+    "lockdown_hint": {
+        "message": "Blokuje wszystkie strony z twojej listy na wybrany czas. Nie da się go zatrzymać wcześniej."
+    },
+    "mode_limited_hint": {
+        "message": "Te strony dzielą twój dzienny czas. Gdy się skończy, są zablokowane do północy."
+    },
+    "mode_blocked_hint": {
+        "message": "Zablokowana przez cały dzień albo tylko w godzinach ustawionych w zakładce Limity."
+    }
+}

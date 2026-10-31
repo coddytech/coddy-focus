@@ -1,0 +1,386 @@
+{
+    "locale": {
+        "message": "ko"
+    },
+    "dir": {
+        "message": "ltr"
+    },
+    "ext_name": {
+        "message": "Coddy Focus: 웹사이트 차단 및 집중 타이머"
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus"
+    },
+    "ext_description": {
+        "message": "방해되는 사이트를 차단하고 하루 사용 시간을 정해 집중하세요. 무료 오픈 소스이며 데이터는 브라우저 밖으로 나가지 않아요. 대신 Coddy에서 코딩을 배워 보세요."
+    },
+    "settings": {
+        "message": "설정"
+    },
+    "cancel": {
+        "message": "취소"
+    },
+    "learn_on_coddy": {
+        "message": "Coddy에서 배우기"
+    },
+    "incognito_off": {
+        "message": "시크릿 창에서는 차단이 꺼져 있어요. 켜려면 확장 프로그램 페이지를 열고 시크릿 모드에서 허용을 켜 주세요."
+    },
+    "incognito_fix": {
+        "message": "확장 프로그램 페이지 열기"
+    },
+    "popup_lockdown_title": {
+        "message": "잠금 모드가 켜져 있어요"
+    },
+    "popup_lockdown_until": {
+        "message": "{time}까지 사이트가 차단돼요."
+    },
+    "popup_focus_title": {
+        "message": "집중 세션"
+    },
+    "popup_focus_body": {
+        "message": "타이머가 끝날 때까지 사이트가 차단돼요."
+    },
+    "popup_focus_stop": {
+        "message": "세션 종료"
+    },
+    "popup_break_title": {
+        "message": "휴식"
+    },
+    "popup_break_body": {
+        "message": "잠깐 쉬어 가세요. 평소 제한이 적용돼요."
+    },
+    "popup_break_end": {
+        "message": "휴식 끝내기"
+    },
+    "popup_focus_start": {
+        "message": "{duration} 집중 시작"
+    },
+    "popup_empty_title": {
+        "message": "방해되는 사이트를 추가하세요"
+    },
+    "popup_empty_body": {
+        "message": "그다음 하루에 얼마나 쓸지 정하세요."
+    },
+    "popup_empty_action": {
+        "message": "사이트 추가"
+    },
+    "popup_off_title": {
+        "message": "지금은 제한이 꺼져 있어요"
+    },
+    "popup_off_body": {
+        "message": "{time}에 다시 시작돼요."
+    },
+    "popup_blocked_title": {
+        "message": "사이트가 차단되어 있어요"
+    },
+    "popup_blocked_body": {
+        "message": "목록의 모든 사이트가 항상 차단돼요."
+    },
+    "popup_used_up_title": {
+        "message": "오늘 시간을 다 썼어요"
+    },
+    "popup_used_up_body": {
+        "message": "{time}에 사이트가 다시 열려요."
+    },
+    "popup_left_title": {
+        "message": "오늘 남은 시간"
+    },
+    "popup_used_of": {
+        "message": "{total} 중 {used} 사용"
+    },
+    "popup_site_not_listed": {
+        "message": "{site} 사이트는 목록에 없어요."
+    },
+    "popup_site_listed_limited": {
+        "message": "{site} 사이트는 하루 사용 시간에 포함돼요."
+    },
+    "popup_site_listed_blocked": {
+        "message": "{site} 사이트는 제한 시간 동안 차단돼요."
+    },
+    "popup_site_add": {
+        "message": "이 사이트 추가"
+    },
+    "popup_site_manage": {
+        "message": "설정에서 변경"
+    },
+    "options_title": {
+        "message": "Coddy Focus 설정"
+    },
+    "options_tagline": {
+        "message": "스크롤은 줄이고, 배움은 늘리고."
+    },
+    "sites_title": {
+        "message": "내 사이트"
+    },
+    "sites_add_label": {
+        "message": "추가할 사이트"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com 또는 reddit.com/r/all"
+    },
+    "sites_mode_label": {
+        "message": "이 사이트를 제한하는 방식"
+    },
+    "mode_limited": {
+        "message": "하루 시간 제한"
+    },
+    "mode_blocked": {
+        "message": "항상 차단"
+    },
+    "sites_add": {
+        "message": "추가"
+    },
+    "sites_empty": {
+        "message": "아직 사이트가 없어요. 시간을 뺏기는 사이트를 추가하세요."
+    },
+    "sites_invalid": {
+        "message": "사이트 주소가 아닌 것 같아요."
+    },
+    "sites_duplicate": {
+        "message": "이미 목록에 있는 사이트예요."
+    },
+    "sites_remove_label": {
+        "message": "{site} 삭제"
+    },
+    "access_basic": {
+        "message": "Coddy Focus에 이 사이트 접근 권한이 없어서 이 사이트에서 보낸 시간은 기록되지 않아요. 차단될 때는 Coddy 페이지 대신 브라우저의 기본 차단 페이지가 표시돼요."
+    },
+    "access_give": {
+        "message": "접근 허용"
+    },
+    "access_give_all": {
+        "message": "모두 허용"
+    },
+    "access_missing": {
+        "message": "일부 사이트는 접근 권한이 없어요. 이 사이트들에서 보낸 시간은 기록되지 않고, 차단될 때는 브라우저의 기본 차단 페이지가 표시돼요."
+    },
+    "allowance_title": {
+        "message": "하루 시간"
+    },
+    "allowance_body": {
+        "message": "하루 시간 제한 사이트는 모두 이 시간을 함께 써요. 0으로 설정하면 하루 종일 차단돼요."
+    },
+    "minutes_per_day": {
+        "message": "분/일"
+    },
+    "schedule_title": {
+        "message": "제한 적용 시간"
+    },
+    "schedule_enable": {
+        "message": "특정 시간에만"
+    },
+    "schedule_days": {
+        "message": "요일"
+    },
+    "schedule_from": {
+        "message": "시작"
+    },
+    "schedule_to": {
+        "message": "종료"
+    },
+    "focus_title": {
+        "message": "집중 타이머"
+    },
+    "focus_body": {
+        "message": "작업하는 동안 목록의 모든 사이트가 차단되고, 그다음 휴식 시간이 주어져요."
+    },
+    "focus_work": {
+        "message": "작업 시간(분)"
+    },
+    "focus_break": {
+        "message": "휴식 시간(분)"
+    },
+    "lockdown_title": {
+        "message": "잠금 모드"
+    },
+    "lockdown_body": {
+        "message": "정한 시간 동안 목록의 모든 사이트를 차단해요. 한번 시작하면 멈출 수 없어요."
+    },
+    "lockdown_length": {
+        "message": "잠금 시간"
+    },
+    "lockdown_start": {
+        "message": "잠금 시작"
+    },
+    "lockdown_extend": {
+        "message": "더 길게"
+    },
+    "lockdown_confirm": {
+        "message": "네, {duration} 동안 잠글게요"
+    },
+    "lockdown_active": {
+        "message": "{time}까지 잠금 모드가 켜져 있어요."
+    },
+    "hide_title": {
+        "message": "방해 요소 숨기기"
+    },
+    "hide_body": {
+        "message": "사이트는 열어 두고, 빠져들게 만드는 부분만 숨겨요."
+    },
+    "hide_yt_shorts": {
+        "message": "YouTube Shorts 숨기기"
+    },
+    "hide_yt_comments": {
+        "message": "YouTube 댓글 숨기기"
+    },
+    "hide_yt_recommendations": {
+        "message": "YouTube 추천 영상 숨기기"
+    },
+    "hide_ig_reels": {
+        "message": "Instagram 릴스 숨기기"
+    },
+    "strict_title": {
+        "message": "엄격 모드"
+    },
+    "strict_enable": {
+        "message": "제한을 완화하는 변경은 내일부터 적용"
+    },
+    "strict_body": {
+        "message": "더 엄격한 제한은 바로 적용돼요. 사이트 삭제, 시간 늘리기, 엄격 모드 끄기는 자정에 적용돼요."
+    },
+    "pending_strict": {
+        "message": "엄격 모드가 켜져 있어서 제한을 완화하는 변경은 자정에 적용돼요."
+    },
+    "pending_lockdown": {
+        "message": "잠금 모드가 켜져 있어서 제한을 완화하는 변경은 {time}에 적용돼요."
+    },
+    "pending_cancel": {
+        "message": "현재 제한 유지"
+    },
+    "backup_title": {
+        "message": "백업"
+    },
+    "backup_body": {
+        "message": "설정을 파일로 저장하거나 파일에서 불러오세요."
+    },
+    "backup_export": {
+        "message": "파일로 저장"
+    },
+    "backup_import": {
+        "message": "파일에서 불러오기"
+    },
+    "backup_imported": {
+        "message": "설정을 불러왔어요."
+    },
+    "backup_invalid": {
+        "message": "Coddy Focus 백업 파일이 아니에요."
+    },
+    "about_title": {
+        "message": "무료 오픈 소스"
+    },
+    "about_body": {
+        "message": "Coddy Focus는 네트워크 요청을 전혀 보내지 않고 모든 데이터를 브라우저에 보관해요. 누구나 코드를 볼 수 있어요."
+    },
+    "about_source": {
+        "message": "GitHub에서 코드 보기"
+    },
+    "blocked_tab_title": {
+        "message": "차단됨"
+    },
+    "blocked_title": {
+        "message": "{site} 차단됨"
+    },
+    "blocked_reason_lockdown": {
+        "message": "{time}까지 잠금 모드가 켜져 있어요."
+    },
+    "blocked_reason_focus": {
+        "message": "집중 세션 중이에요. {time} 남았어요."
+    },
+    "blocked_reason_blocked": {
+        "message": "제한 시간이라 {time}까지 차단돼요."
+    },
+    "blocked_reason_limit": {
+        "message": "오늘 시간을 다 썼어요. {time}에 다시 열려요."
+    },
+    "blocked_reason_always": {
+        "message": "이 사이트는 항상 차단돼요."
+    },
+    "blocked_learn": {
+        "message": "대신 레슨 하나 하기"
+    },
+    "blocked_back": {
+        "message": "돌아가기"
+    },
+    "blocked_pitch": {
+        "message": "10분 스크롤보다 Coddy의 짧은 코딩 레슨 하나가 더 나아요."
+    },
+    "blocked_open_title": {
+        "message": "{site} 사이트가 다시 열렸어요"
+    },
+    "blocked_open_body": {
+        "message": "차단이 끝났어요."
+    },
+    "blocked_open_site": {
+        "message": "사이트 열기"
+    },
+    "popup_used_up_midnight": {
+        "message": "자정에 사이트가 다시 열려요."
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "오늘 시간을 다 썼어요. 자정에 다시 열려요."
+    },
+    "tab_today": {
+        "message": "오늘"
+    },
+    "today_no_time": {
+        "message": "아직 기록된 시간이 없어요. 목록에 있는 사이트만, 이 기기에서만 기록돼요."
+    },
+    "nav_label": {
+        "message": "설정 섹션"
+    },
+    "tab_sites": {
+        "message": "사이트"
+    },
+    "tab_limits": {
+        "message": "제한"
+    },
+    "tab_focus": {
+        "message": "집중"
+    },
+    "tab_hide": {
+        "message": "숨기기"
+    },
+    "tab_more": {
+        "message": "더 보기"
+    },
+    "today_blocked_now": {
+        "message": "지금 차단된 사이트"
+    },
+    "today_week": {
+        "message": "이번 주 사용 시간"
+    },
+    "today_your_time": {
+        "message": "오늘 사용 시간"
+    },
+    "today_add_other": {
+        "message": "다른 사이트 추가"
+    },
+    "sites_suggestions": {
+        "message": "빠르게 추가"
+    },
+    "toast_saved": {
+        "message": "저장했어요"
+    },
+    "toast_saved_later": {
+        "message": "저장했어요. 제한을 완화하는 변경은 나중에 적용돼요."
+    },
+    "focus_then_break": {
+        "message": "그다음 {duration} 휴식이에요."
+    },
+    "sites_access_denied": {
+        "message": "{site} 사이트는 추가되지 않았어요. 사용 시간을 기록하고 차단 페이지를 보여 주려면 Coddy Focus에 접근 권한이 필요해요."
+    },
+    "focus_hint": {
+        "message": "타이머가 끝날 때까지 목록의 모든 사이트를 차단하고, 그다음 짧은 휴식을 줘요. 언제든 멈출 수 있어요."
+    },
+    "lockdown_hint": {
+        "message": "선택한 시간 동안 목록의 모든 사이트를 차단해요. 중간에 멈출 수 없어요."
+    },
+    "mode_limited_hint": {
+        "message": "이 사이트들은 하루 시간을 함께 써요. 시간을 다 쓰면 자정까지 차단돼요."
+    },
+    "mode_blocked_hint": {
+        "message": "하루 종일 차단되거나, '제한'에서 정한 시간에만 차단돼요."
+    }
+}

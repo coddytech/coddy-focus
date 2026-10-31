@@ -1,0 +1,50 @@
+/* Hides parts of YouTube when the matching switch is on. The page is marked
+   by youtube.js: <html data-coddy-focus="ytShorts ytComments ...">. Links to
+   /shorts are matched by address, which works in every language; the full
+   sidebar's Shorts entry has no address, so it is matched by its icon's
+   path (checked in English and Japanese, 2026-10-31). YouTube
+   renames its elements now and then; when something shows up again, add
+   its new name here. */
+
+html[data-coddy-focus~='ytShorts']
+    :is(
+        ytd-guide-entry-renderer:has(a[href^='/shorts']),
+        ytd-guide-entry-renderer:has(path[d^='m13.467 1.19']),
+        ytd-mini-guide-entry-renderer:has(path[d^='m13.467 1.19']),
+        ytd-mini-guide-entry-renderer:has(a[href^='/shorts']),
+        ytd-reel-shelf-renderer,
+        ytd-rich-shelf-renderer[is-shorts],
+        ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]),
+        grid-shelf-view-model:has(a[href^='/shorts/']),
+        ytd-rich-item-renderer:has(a[href^='/shorts/']),
+        ytd-video-renderer:has(a[href^='/shorts/']),
+        ytd-grid-video-renderer:has(a[href^='/shorts/']),
+        ytm-shorts-lockup-view-model,
+        ytm-shorts-lockup-view-model-v2,
+        ytm-reel-shelf-renderer,
+        ytm-pivot-bar-item-renderer:has(.pivot-shorts)
+    ) {
+    display: none !important;
+}
+
+html[data-coddy-focus~='ytComments']
+    :is(
+        ytd-comments#comments,
+        ytd-engagement-panel-section-list-renderer[target-id='engagement-panel-comments-section'],
+        ytm-comment-section-renderer,
+        ytm-comments-entry-point-header-renderer
+    ) {
+    display: none !important;
+}
+
+html[data-coddy-focus~='ytRecommendations']
+    :is(
+        #related,
+        ytd-watch-next-secondary-results-renderer,
+        ytd-browse[page-subtype='home'] ytd-rich-grid-renderer,
+        .ytp-endscreen-content,
+        .ytp-ce-element,
+        ytm-item-section-renderer[section-identifier='related-items']
+    ) {
+    display: none !important;
+}

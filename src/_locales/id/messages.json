@@ -1,0 +1,386 @@
+{
+    "locale": {
+        "message": "id"
+    },
+    "dir": {
+        "message": "ltr"
+    },
+    "ext_name": {
+        "message": "Coddy Focus: pemblokir situs dan timer fokus"
+    },
+    "ext_short_name": {
+        "message": "Coddy Focus"
+    },
+    "ext_description": {
+        "message": "Blokir situs pengganggu, atur batas harian, dan fokus. Gratis, open source, datamu tetap di browser. Belajar coding di Coddy."
+    },
+    "settings": {
+        "message": "Pengaturan"
+    },
+    "cancel": {
+        "message": "Batal"
+    },
+    "learn_on_coddy": {
+        "message": "Belajar di Coddy"
+    },
+    "incognito_off": {
+        "message": "Pemblokiran nonaktif di jendela samaran. Untuk mengaktifkannya, buka halaman ekstensi dan izinkan akses di mode samaran."
+    },
+    "incognito_fix": {
+        "message": "Buka halaman ekstensi"
+    },
+    "popup_lockdown_title": {
+        "message": "Kunci total aktif"
+    },
+    "popup_lockdown_until": {
+        "message": "Situsmu diblokir sampai {time}."
+    },
+    "popup_focus_title": {
+        "message": "Sesi fokus"
+    },
+    "popup_focus_body": {
+        "message": "Situsmu diblokir sampai timer selesai."
+    },
+    "popup_focus_stop": {
+        "message": "Hentikan sesi"
+    },
+    "popup_break_title": {
+        "message": "Istirahat"
+    },
+    "popup_break_body": {
+        "message": "Istirahatlah sebentar. Batas biasamu tetap berlaku."
+    },
+    "popup_break_end": {
+        "message": "Akhiri istirahat"
+    },
+    "popup_focus_start": {
+        "message": "Mulai fokus {duration}"
+    },
+    "popup_empty_title": {
+        "message": "Tambahkan situs yang mengganggumu"
+    },
+    "popup_empty_body": {
+        "message": "Lalu pilih berapa lama waktumu di situs itu setiap hari."
+    },
+    "popup_empty_action": {
+        "message": "Tambah situs"
+    },
+    "popup_off_title": {
+        "message": "Batasmu sedang nonaktif"
+    },
+    "popup_off_body": {
+        "message": "Batas berlaku lagi pada {time}."
+    },
+    "popup_blocked_title": {
+        "message": "Situsmu diblokir"
+    },
+    "popup_blocked_body": {
+        "message": "Setiap situs di daftarmu selalu diblokir."
+    },
+    "popup_used_up_title": {
+        "message": "Waktu hari ini sudah habis"
+    },
+    "popup_used_up_body": {
+        "message": "Situsmu terbuka lagi pada {time}."
+    },
+    "popup_used_up_midnight": {
+        "message": "Situsmu terbuka lagi pada tengah malam."
+    },
+    "popup_left_title": {
+        "message": "Sisa waktu hari ini"
+    },
+    "popup_used_of": {
+        "message": "{used} dari {total} terpakai"
+    },
+    "popup_site_not_listed": {
+        "message": "{site} tidak ada di daftarmu."
+    },
+    "popup_site_listed_limited": {
+        "message": "{site} dihitung dalam waktu harianmu."
+    },
+    "popup_site_listed_blocked": {
+        "message": "{site} diblokir selama batasmu berlaku."
+    },
+    "popup_site_add": {
+        "message": "Tambahkan situs ini"
+    },
+    "popup_site_manage": {
+        "message": "Ubah di pengaturan"
+    },
+    "options_title": {
+        "message": "Pengaturan Coddy Focus"
+    },
+    "options_tagline": {
+        "message": "Lebih sedikit scroll, lebih banyak belajar."
+    },
+    "sites_title": {
+        "message": "Situsmu"
+    },
+    "sites_add_label": {
+        "message": "Situs yang ingin ditambahkan"
+    },
+    "sites_add_placeholder": {
+        "message": "youtube.com atau reddit.com/r/all"
+    },
+    "sites_mode_label": {
+        "message": "Cara membatasi situs ini"
+    },
+    "mode_limited": {
+        "message": "Batas waktu harian"
+    },
+    "mode_blocked": {
+        "message": "Selalu diblokir"
+    },
+    "sites_add": {
+        "message": "Tambah"
+    },
+    "sites_empty": {
+        "message": "Belum ada situs. Tambahkan situs yang menyita waktumu."
+    },
+    "sites_invalid": {
+        "message": "Itu sepertinya bukan alamat situs."
+    },
+    "sites_duplicate": {
+        "message": "Situs itu sudah ada di daftarmu."
+    },
+    "sites_remove_label": {
+        "message": "Hapus {site}"
+    },
+    "access_basic": {
+        "message": "Coddy Focus tidak punya akses ke situs ini, jadi waktumu di sana tidak bisa dihitung. Saat diblokir, yang muncul adalah halaman blokir bawaan browser, bukan halaman Coddy."
+    },
+    "access_give": {
+        "message": "Beri akses"
+    },
+    "access_give_all": {
+        "message": "Beri akses ke semua"
+    },
+    "access_missing": {
+        "message": "Beberapa situs belum diberi akses. Waktu di situs itu tidak dihitung, dan saat diblokir yang muncul adalah halaman blokir bawaan browser."
+    },
+    "allowance_title": {
+        "message": "Waktu harian"
+    },
+    "allowance_body": {
+        "message": "Semua situs dengan batas waktu harian berbagi waktu ini. Isi 0 untuk memblokirnya sepanjang hari."
+    },
+    "minutes_per_day": {
+        "message": "menit per hari"
+    },
+    "schedule_title": {
+        "message": "Kapan batas berlaku"
+    },
+    "schedule_enable": {
+        "message": "Hanya pada jam tertentu"
+    },
+    "schedule_days": {
+        "message": "Hari"
+    },
+    "schedule_from": {
+        "message": "Dari"
+    },
+    "schedule_to": {
+        "message": "Sampai"
+    },
+    "focus_title": {
+        "message": "Timer fokus"
+    },
+    "focus_body": {
+        "message": "Setiap situs di daftarmu diblokir selama kamu bekerja, lalu kamu dapat istirahat."
+    },
+    "focus_work": {
+        "message": "Menit kerja"
+    },
+    "focus_break": {
+        "message": "Menit istirahat"
+    },
+    "lockdown_title": {
+        "message": "Kunci total"
+    },
+    "lockdown_body": {
+        "message": "Memblokir setiap situs di daftarmu selama yang kamu pilih. Setelah dimulai, kunci ini tidak bisa dihentikan."
+    },
+    "lockdown_length": {
+        "message": "Durasi kunci total"
+    },
+    "lockdown_start": {
+        "message": "Mulai kunci total"
+    },
+    "lockdown_extend": {
+        "message": "Perpanjang"
+    },
+    "lockdown_confirm": {
+        "message": "Ya, kunci selama {duration}"
+    },
+    "lockdown_active": {
+        "message": "Kunci total aktif sampai {time}."
+    },
+    "hide_title": {
+        "message": "Sembunyikan gangguan"
+    },
+    "hide_body": {
+        "message": "Biarkan situs tetap terbuka, tapi sembunyikan bagian yang membuatmu terlena."
+    },
+    "hide_yt_shorts": {
+        "message": "Sembunyikan YouTube Shorts"
+    },
+    "hide_yt_comments": {
+        "message": "Sembunyikan komentar YouTube"
+    },
+    "hide_yt_recommendations": {
+        "message": "Sembunyikan rekomendasi YouTube"
+    },
+    "hide_ig_reels": {
+        "message": "Sembunyikan Instagram Reels"
+    },
+    "strict_title": {
+        "message": "Mode ketat"
+    },
+    "strict_enable": {
+        "message": "Tunda pelonggaran batas sampai besok"
+    },
+    "strict_body": {
+        "message": "Batas yang lebih ketat langsung berlaku. Menghapus situs, menambah waktu, atau mematikan mode ketat baru berlaku pada tengah malam."
+    },
+    "pending_strict": {
+        "message": "Mode ketat aktif, jadi perubahan yang melonggarkan batasmu baru berlaku pada tengah malam."
+    },
+    "pending_lockdown": {
+        "message": "Kunci total sedang aktif, jadi perubahan yang melonggarkan batasmu baru berlaku pada {time}."
+    },
+    "pending_cancel": {
+        "message": "Tetap pakai batasku sekarang"
+    },
+    "backup_title": {
+        "message": "Cadangan"
+    },
+    "backup_body": {
+        "message": "Simpan pengaturanmu ke file, atau muat dari file."
+    },
+    "backup_export": {
+        "message": "Simpan ke file"
+    },
+    "backup_import": {
+        "message": "Muat dari file"
+    },
+    "backup_imported": {
+        "message": "Pengaturan dimuat."
+    },
+    "backup_invalid": {
+        "message": "File itu bukan cadangan Coddy Focus."
+    },
+    "about_title": {
+        "message": "Gratis dan open source"
+    },
+    "about_body": {
+        "message": "Coddy Focus tidak membuat permintaan jaringan apa pun dan menyimpan semuanya di browsermu. Siapa pun bisa membaca kodenya."
+    },
+    "about_source": {
+        "message": "Lihat kodenya di GitHub"
+    },
+    "blocked_tab_title": {
+        "message": "Diblokir"
+    },
+    "blocked_title": {
+        "message": "{site} diblokir"
+    },
+    "blocked_reason_lockdown": {
+        "message": "Kunci total aktif sampai {time}."
+    },
+    "blocked_reason_focus": {
+        "message": "Kamu sedang dalam sesi fokus. Sisa {time}."
+    },
+    "blocked_reason_blocked": {
+        "message": "Diblokir selama batasmu berlaku, sampai {time}."
+    },
+    "blocked_reason_limit": {
+        "message": "Waktumu hari ini sudah habis. Situs ini terbuka lagi pada {time}."
+    },
+    "blocked_reason_limit_midnight": {
+        "message": "Waktumu hari ini sudah habis. Situs ini terbuka lagi pada tengah malam."
+    },
+    "blocked_reason_always": {
+        "message": "Situs ini selalu diblokir."
+    },
+    "blocked_learn": {
+        "message": "Kerjakan satu pelajaran saja"
+    },
+    "blocked_back": {
+        "message": "Kembali"
+    },
+    "blocked_pitch": {
+        "message": "Satu pelajaran coding singkat di Coddy lebih baik daripada sepuluh menit scroll."
+    },
+    "blocked_open_title": {
+        "message": "{site} terbuka lagi"
+    },
+    "blocked_open_body": {
+        "message": "Blokir sudah berakhir."
+    },
+    "blocked_open_site": {
+        "message": "Buka situs"
+    },
+    "tab_today": {
+        "message": "Hari ini"
+    },
+    "today_no_time": {
+        "message": "Belum ada waktu yang tercatat. Hanya situs di daftarmu yang dihitung, dan hanya di perangkat ini."
+    },
+    "nav_label": {
+        "message": "Bagian pengaturan"
+    },
+    "tab_sites": {
+        "message": "Situs"
+    },
+    "tab_limits": {
+        "message": "Batas"
+    },
+    "tab_focus": {
+        "message": "Fokus"
+    },
+    "tab_hide": {
+        "message": "Sembunyikan"
+    },
+    "tab_more": {
+        "message": "Lainnya"
+    },
+    "today_blocked_now": {
+        "message": "Situs yang diblokir sekarang"
+    },
+    "today_week": {
+        "message": "Waktumu minggu ini"
+    },
+    "today_your_time": {
+        "message": "Waktumu hari ini"
+    },
+    "today_add_other": {
+        "message": "Tambah situs lain"
+    },
+    "sites_suggestions": {
+        "message": "Tambah cepat"
+    },
+    "toast_saved": {
+        "message": "Tersimpan"
+    },
+    "toast_saved_later": {
+        "message": "Tersimpan. Perubahan yang melonggarkan batasmu baru berlaku nanti."
+    },
+    "focus_then_break": {
+        "message": "Lalu istirahat {duration}."
+    },
+    "sites_access_denied": {
+        "message": "{site} tidak ditambahkan. Coddy Focus butuh akses ke situs ini untuk menghitung waktumu dan menampilkan halaman blokirnya."
+    },
+    "focus_hint": {
+        "message": "Memblokir semua situs di daftarmu sampai timer selesai, lalu memberimu istirahat singkat. Kamu bisa menghentikannya kapan saja."
+    },
+    "lockdown_hint": {
+        "message": "Memblokir semua situs di daftarmu selama waktu yang kamu pilih. Tidak bisa dihentikan lebih awal."
+    },
+    "mode_limited_hint": {
+        "message": "Situs-situs ini berbagi waktu harianmu. Saat waktunya habis, situs diblokir sampai tengah malam."
+    },
+    "mode_blocked_hint": {
+        "message": "Diblokir sepanjang hari, atau hanya pada jam yang kamu atur di Batas."
+    }
+}
