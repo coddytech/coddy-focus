@@ -67,3 +67,5 @@ Every language has the same keys as `src/_locales/en/messages.json`. `npm run ch
 ## Name and logo
 
 The code is under the MIT license. The Coddy name, the Coddy Focus name and the Coddy logo are trademarks of Coddy and are not covered by it: a fork may use the code, but must not publish under those names or with that logo.
+
+The fonts in `src/fonts/` (Coddy Round, Varela Round, Noto Sans Arabic) are under the SIL Open Font License, see `src/fonts/OFL.txt`.
